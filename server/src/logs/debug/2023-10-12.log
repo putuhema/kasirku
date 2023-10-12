@@ -1,0 +1,1280 @@
+2023-10-12 06:20:18 info: [0mOPTIONS /login [32m204[0m 0.321 ms - 0[0m
+2023-10-12 06:21:50 info: ================================
+2023-10-12 06:21:50 info: ====== ENV: development ========
+2023-10-12 06:21:50 info: 🚀 App listening on the port 3000
+2023-10-12 06:21:50 info: ================================
+2023-10-12 06:21:50 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:21:50 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:21:50 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:22:18 info: [0mOPTIONS /login [32m204[0m 1.707 ms - 0[0m
+2023-10-12 06:22:18 info: 3ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'jhon' LIMIT 1;
+2023-10-12 06:22:18 info: [0mPOST /login [32m200[0m 132.967 ms - 317[0m
+2023-10-12 06:24:01 info: ================================
+2023-10-12 06:24:01 info: ====== ENV: development ========
+2023-10-12 06:24:01 info: 🚀 App listening on the port 3000
+2023-10-12 06:24:01 info: ================================
+2023-10-12 06:24:01 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:24:01 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:24:02 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:24:29 info: ================================
+2023-10-12 06:24:29 info: ====== ENV: development ========
+2023-10-12 06:24:29 info: 🚀 App listening on the port 3000
+2023-10-12 06:24:29 info: ================================
+2023-10-12 06:24:29 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:24:29 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:24:29 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:25:23 info: ================================
+2023-10-12 06:25:23 info: ====== ENV: development ========
+2023-10-12 06:25:23 info: 🚀 App listening on the port 3000
+2023-10-12 06:25:23 info: ================================
+2023-10-12 06:25:23 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:25:23 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:25:23 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:25:29 info: ================================
+2023-10-12 06:25:29 info: ====== ENV: development ========
+2023-10-12 06:25:29 info: 🚀 App listening on the port 3000
+2023-10-12 06:25:29 info: ================================
+2023-10-12 06:25:29 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:25:29 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:25:29 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:25:38 info: ================================
+2023-10-12 06:25:38 info: ====== ENV: development ========
+2023-10-12 06:25:38 info: 🚀 App listening on the port 3000
+2023-10-12 06:25:38 info: ================================
+2023-10-12 06:25:38 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:25:38 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:25:38 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:29:20 info: ================================
+2023-10-12 06:29:20 info: ====== ENV: development ========
+2023-10-12 06:29:20 info: 🚀 App listening on the port 3000
+2023-10-12 06:29:20 info: ================================
+2023-10-12 06:29:20 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:29:20 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:29:20 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:33:33 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:34:50 info: ================================
+2023-10-12 06:34:50 info: ====== ENV: development ========
+2023-10-12 06:34:50 info: 🚀 App listening on the port 3000
+2023-10-12 06:34:50 info: ================================
+2023-10-12 06:34:50 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:34:50 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:34:50 info: 5ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:35:28 info: ================================
+2023-10-12 06:35:28 info: ====== ENV: development ========
+2023-10-12 06:35:28 info: 🚀 App listening on the port 3000
+2023-10-12 06:35:28 info: ================================
+2023-10-12 06:35:28 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:35:28 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:35:28 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:41:44 info: ================================
+2023-10-12 06:41:44 info: ====== ENV: development ========
+2023-10-12 06:41:44 info: 🚀 App listening on the port 3000
+2023-10-12 06:41:44 info: ================================
+2023-10-12 06:41:44 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:41:44 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:41:44 info: 5ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:52:25 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:52:25 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:52:25 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:54:21 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:54:21 info: 4ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:54:21 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:54:51 info: ================================
+2023-10-12 06:54:51 info: ====== ENV: development ========
+2023-10-12 06:54:51 info: 🚀 App listening on the port 3000
+2023-10-12 06:54:51 info: ================================
+2023-10-12 06:54:51 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:54:51 info: 4ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:54:51 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:58:26 info: ================================
+2023-10-12 06:58:26 info: ====== ENV: development ========
+2023-10-12 06:58:26 info: 🚀 App listening on the port 3000
+2023-10-12 06:58:26 info: ================================
+2023-10-12 06:58:26 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:58:27 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:58:27 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:58:39 info: ================================
+2023-10-12 06:58:39 info: ====== ENV: development ========
+2023-10-12 06:58:39 info: 🚀 App listening on the port 3000
+2023-10-12 06:58:39 info: ================================
+2023-10-12 06:58:39 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:58:39 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:58:39 info: 5ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:58:45 info: ================================
+2023-10-12 06:58:45 info: ====== ENV: development ========
+2023-10-12 06:58:45 info: 🚀 App listening on the port 3000
+2023-10-12 06:58:45 info: ================================
+2023-10-12 06:58:45 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:58:45 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:58:45 info: 5ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 06:59:33 info: ================================
+2023-10-12 06:59:33 info: ====== ENV: development ========
+2023-10-12 06:59:33 info: 🚀 App listening on the port 3000
+2023-10-12 06:59:33 info: ================================
+2023-10-12 06:59:33 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 06:59:33 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 06:59:34 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 07:01:33 info: ================================
+2023-10-12 07:01:33 info: ====== ENV: development ========
+2023-10-12 07:01:33 info: 🚀 App listening on the port 3000
+2023-10-12 07:01:33 info: ================================
+2023-10-12 07:01:33 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 07:01:33 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 07:01:33 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 07:02:10 info: ================================
+2023-10-12 07:02:10 info: ====== ENV: development ========
+2023-10-12 07:02:10 info: 🚀 App listening on the port 3000
+2023-10-12 07:02:10 info: ================================
+2023-10-12 07:02:10 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 07:02:10 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 07:02:11 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 07:02:44 info: ================================
+2023-10-12 07:02:44 info: ====== ENV: development ========
+2023-10-12 07:02:44 info: 🚀 App listening on the port 3000
+2023-10-12 07:02:44 info: ================================
+2023-10-12 07:02:44 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 07:02:44 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 07:02:44 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 07:06:01 info: ================================
+2023-10-12 07:06:01 info: ====== ENV: development ========
+2023-10-12 07:06:01 info: 🚀 App listening on the port 3000
+2023-10-12 07:06:01 info: ================================
+2023-10-12 07:06:01 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 07:06:01 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 07:06:01 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 07:08:16 info: ================================
+2023-10-12 07:08:16 info: ====== ENV: development ========
+2023-10-12 07:08:16 info: 🚀 App listening on the port 3000
+2023-10-12 07:08:16 info: ================================
+2023-10-12 07:08:16 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 07:08:16 info: 4ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 07:08:16 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 07:09:36 info: [0mOPTIONS /login [32m204[0m 1.759 ms - 0[0m
+2023-10-12 07:09:36 info: 3ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'jhon' LIMIT 1;
+2023-10-12 07:09:36 info: [0mPOST /login [32m200[0m 135.622 ms - 174[0m
+2023-10-12 07:20:53 info: ================================
+2023-10-12 07:20:53 info: ====== ENV: development ========
+2023-10-12 07:20:53 info: 🚀 App listening on the port 3000
+2023-10-12 07:20:53 info: ================================
+2023-10-12 07:20:53 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 07:20:53 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 07:20:53 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 07:23:04 info: ================================
+2023-10-12 07:23:04 info: ====== ENV: development ========
+2023-10-12 07:23:04 info: 🚀 App listening on the port 3000
+2023-10-12 07:23:04 info: ================================
+2023-10-12 07:23:04 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 07:23:04 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 07:23:04 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 07:23:12 info: ================================
+2023-10-12 07:23:12 info: ====== ENV: development ========
+2023-10-12 07:23:12 info: 🚀 App listening on the port 3000
+2023-10-12 07:23:12 info: ================================
+2023-10-12 07:23:13 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 07:23:13 info: 4ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 07:23:13 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 07:23:30 info: ================================
+2023-10-12 07:23:30 info: ====== ENV: development ========
+2023-10-12 07:23:30 info: 🚀 App listening on the port 3000
+2023-10-12 07:23:30 info: ================================
+2023-10-12 07:23:30 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 07:23:30 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 07:23:30 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 07:42:32 info: ================================
+2023-10-12 07:42:32 info: ====== ENV: development ========
+2023-10-12 07:42:32 info: 🚀 App listening on the port 3000
+2023-10-12 07:42:32 info: ================================
+2023-10-12 07:42:32 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 07:42:32 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 07:42:32 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 08:08:41 info: ================================
+2023-10-12 08:08:41 info: ====== ENV: development ========
+2023-10-12 08:08:41 info: 🚀 App listening on the port 3000
+2023-10-12 08:08:41 info: ================================
+2023-10-12 08:08:42 info: 4ms Executed (default): SELECT 1+1 AS result
+2023-10-12 08:08:43 info: 132ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 08:08:43 info: 140ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 08:22:58 info: ================================
+2023-10-12 08:22:58 info: ====== ENV: development ========
+2023-10-12 08:22:58 info: 🚀 App listening on the port 3000
+2023-10-12 08:22:58 info: ================================
+2023-10-12 08:22:58 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 08:22:58 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 08:22:58 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 08:23:02 info: ================================
+2023-10-12 08:23:02 info: ====== ENV: development ========
+2023-10-12 08:23:02 info: 🚀 App listening on the port 3000
+2023-10-12 08:23:02 info: ================================
+2023-10-12 08:23:02 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 08:23:02 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 08:23:02 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 08:42:01 info: ================================
+2023-10-12 08:42:01 info: ====== ENV: development ========
+2023-10-12 08:42:01 info: 🚀 App listening on the port 3000
+2023-10-12 08:42:01 info: ================================
+2023-10-12 08:42:01 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 08:42:01 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 08:42:01 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 08:52:15 info: ================================
+2023-10-12 08:52:15 info: ====== ENV: development ========
+2023-10-12 08:52:15 info: 🚀 App listening on the port 3000
+2023-10-12 08:52:15 info: ================================
+2023-10-12 08:52:15 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 08:52:15 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 08:52:15 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 08:52:26 info: ================================
+2023-10-12 08:52:26 info: ====== ENV: development ========
+2023-10-12 08:52:26 info: 🚀 App listening on the port 3000
+2023-10-12 08:52:26 info: ================================
+2023-10-12 08:52:26 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 08:52:26 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 08:52:26 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 08:52:58 info: ================================
+2023-10-12 08:52:58 info: ====== ENV: development ========
+2023-10-12 08:52:58 info: 🚀 App listening on the port 3000
+2023-10-12 08:52:58 info: ================================
+2023-10-12 08:52:58 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 08:52:58 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 08:52:58 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 08:56:31 info: ================================
+2023-10-12 08:56:31 info: ====== ENV: development ========
+2023-10-12 08:56:31 info: 🚀 App listening on the port 3000
+2023-10-12 08:56:31 info: ================================
+2023-10-12 08:56:31 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 08:56:31 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 08:56:31 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 08:56:35 info: ================================
+2023-10-12 08:56:35 info: ====== ENV: development ========
+2023-10-12 08:56:35 info: 🚀 App listening on the port 3000
+2023-10-12 08:56:35 info: ================================
+2023-10-12 08:56:35 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 08:56:35 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 08:56:35 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 08:56:43 info: ================================
+2023-10-12 08:56:43 info: ====== ENV: development ========
+2023-10-12 08:56:43 info: 🚀 App listening on the port 3000
+2023-10-12 08:56:43 info: ================================
+2023-10-12 08:56:43 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 08:56:43 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 08:56:43 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 08:59:42 info: ================================
+2023-10-12 08:59:42 info: ====== ENV: development ========
+2023-10-12 08:59:42 info: 🚀 App listening on the port 3000
+2023-10-12 08:59:42 info: ================================
+2023-10-12 08:59:42 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 08:59:42 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 08:59:42 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:00:17 info: ================================
+2023-10-12 09:00:17 info: ====== ENV: development ========
+2023-10-12 09:00:17 info: 🚀 App listening on the port 3000
+2023-10-12 09:00:17 info: ================================
+2023-10-12 09:00:17 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:00:17 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:00:17 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:00:19 info: ================================
+2023-10-12 09:00:19 info: ====== ENV: development ========
+2023-10-12 09:00:19 info: 🚀 App listening on the port 3000
+2023-10-12 09:00:19 info: ================================
+2023-10-12 09:00:19 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:00:19 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:00:19 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:00:24 info: ================================
+2023-10-12 09:00:24 info: ====== ENV: development ========
+2023-10-12 09:00:24 info: 🚀 App listening on the port 3000
+2023-10-12 09:00:24 info: ================================
+2023-10-12 09:00:24 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:00:24 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:00:24 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:00:33 info: ================================
+2023-10-12 09:00:33 info: ====== ENV: development ========
+2023-10-12 09:00:33 info: 🚀 App listening on the port 3000
+2023-10-12 09:00:33 info: ================================
+2023-10-12 09:00:33 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:00:33 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:00:33 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:01:38 info: ================================
+2023-10-12 09:01:38 info: ====== ENV: development ========
+2023-10-12 09:01:38 info: 🚀 App listening on the port 3000
+2023-10-12 09:01:38 info: ================================
+2023-10-12 09:01:38 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:01:38 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:01:38 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:02:17 info: ================================
+2023-10-12 09:02:17 info: ====== ENV: development ========
+2023-10-12 09:02:17 info: 🚀 App listening on the port 3000
+2023-10-12 09:02:17 info: ================================
+2023-10-12 09:02:17 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:02:17 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:02:17 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:02:52 info: ================================
+2023-10-12 09:02:52 info: ====== ENV: development ========
+2023-10-12 09:02:52 info: 🚀 App listening on the port 3000
+2023-10-12 09:02:52 info: ================================
+2023-10-12 09:02:52 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:02:52 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:02:52 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:03:03 info: ================================
+2023-10-12 09:03:03 info: ====== ENV: development ========
+2023-10-12 09:03:03 info: 🚀 App listening on the port 3000
+2023-10-12 09:03:03 info: ================================
+2023-10-12 09:03:03 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:03:03 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:03:03 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:04:19 info: ================================
+2023-10-12 09:04:19 info: ====== ENV: development ========
+2023-10-12 09:04:19 info: 🚀 App listening on the port 3000
+2023-10-12 09:04:19 info: ================================
+2023-10-12 09:04:19 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:04:19 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:04:19 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:04:43 info: ================================
+2023-10-12 09:04:43 info: ====== ENV: development ========
+2023-10-12 09:04:43 info: 🚀 App listening on the port 3000
+2023-10-12 09:04:43 info: ================================
+2023-10-12 09:04:43 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:04:43 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:04:43 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:04:46 info: ================================
+2023-10-12 09:04:46 info: ====== ENV: development ========
+2023-10-12 09:04:46 info: 🚀 App listening on the port 3000
+2023-10-12 09:04:46 info: ================================
+2023-10-12 09:04:46 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:04:46 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:04:46 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:05:18 info: ================================
+2023-10-12 09:05:18 info: ====== ENV: development ========
+2023-10-12 09:05:18 info: 🚀 App listening on the port 3000
+2023-10-12 09:05:18 info: ================================
+2023-10-12 09:05:18 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:05:18 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:05:18 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:06:55 info: ================================
+2023-10-12 09:06:55 info: ====== ENV: development ========
+2023-10-12 09:06:55 info: 🚀 App listening on the port 3000
+2023-10-12 09:06:55 info: ================================
+2023-10-12 09:06:55 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:06:55 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:06:55 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:08:26 info: ================================
+2023-10-12 09:08:26 info: ====== ENV: development ========
+2023-10-12 09:08:26 info: 🚀 App listening on the port 3000
+2023-10-12 09:08:26 info: ================================
+2023-10-12 09:08:27 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:08:27 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:08:27 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:08:50 info: ================================
+2023-10-12 09:08:50 info: ====== ENV: development ========
+2023-10-12 09:08:50 info: 🚀 App listening on the port 3000
+2023-10-12 09:08:50 info: ================================
+2023-10-12 09:08:50 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:08:50 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:08:50 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:09:09 info: ================================
+2023-10-12 09:09:09 info: ====== ENV: development ========
+2023-10-12 09:09:09 info: 🚀 App listening on the port 3000
+2023-10-12 09:09:09 info: ================================
+2023-10-12 09:09:09 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:09:09 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:09:09 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:09:19 info: ================================
+2023-10-12 09:09:19 info: ====== ENV: development ========
+2023-10-12 09:09:19 info: 🚀 App listening on the port 3000
+2023-10-12 09:09:19 info: ================================
+2023-10-12 09:09:19 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:09:19 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:09:19 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:15:46 info: ================================
+2023-10-12 09:15:46 info: ====== ENV: development ========
+2023-10-12 09:15:46 info: 🚀 App listening on the port 3000
+2023-10-12 09:15:46 info: ================================
+2023-10-12 09:15:46 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:15:46 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:15:46 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:22:22 info: ================================
+2023-10-12 09:22:22 info: ====== ENV: development ========
+2023-10-12 09:22:22 info: 🚀 App listening on the port 3000
+2023-10-12 09:22:22 info: ================================
+2023-10-12 09:22:22 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:22:22 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:22:22 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:23:30 info: ================================
+2023-10-12 09:23:30 info: ====== ENV: development ========
+2023-10-12 09:23:30 info: 🚀 App listening on the port 3000
+2023-10-12 09:23:30 info: ================================
+2023-10-12 09:23:30 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:23:30 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:23:30 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:24:20 info: ================================
+2023-10-12 09:24:20 info: ====== ENV: development ========
+2023-10-12 09:24:20 info: 🚀 App listening on the port 3000
+2023-10-12 09:24:20 info: ================================
+2023-10-12 09:24:20 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:24:20 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:24:20 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:24:22 info: ================================
+2023-10-12 09:24:22 info: ====== ENV: development ========
+2023-10-12 09:24:22 info: 🚀 App listening on the port 3000
+2023-10-12 09:24:22 info: ================================
+2023-10-12 09:24:22 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:24:22 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:24:22 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:25:34 info: ================================
+2023-10-12 09:25:34 info: ====== ENV: development ========
+2023-10-12 09:25:34 info: 🚀 App listening on the port 3000
+2023-10-12 09:25:34 info: ================================
+2023-10-12 09:25:34 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:25:34 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:25:34 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:25:45 info: ================================
+2023-10-12 09:25:45 info: ====== ENV: development ========
+2023-10-12 09:25:45 info: 🚀 App listening on the port 3000
+2023-10-12 09:25:45 info: ================================
+2023-10-12 09:25:45 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:25:45 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:25:45 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:26:09 info: ================================
+2023-10-12 09:26:09 info: ====== ENV: development ========
+2023-10-12 09:26:09 info: 🚀 App listening on the port 3000
+2023-10-12 09:26:09 info: ================================
+2023-10-12 09:26:09 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:26:09 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:26:09 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:28:01 info: ================================
+2023-10-12 09:28:01 info: ====== ENV: development ========
+2023-10-12 09:28:01 info: 🚀 App listening on the port 3000
+2023-10-12 09:28:01 info: ================================
+2023-10-12 09:28:01 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:28:01 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:28:01 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:30:54 info: ================================
+2023-10-12 09:30:54 info: ====== ENV: development ========
+2023-10-12 09:30:54 info: 🚀 App listening on the port 3000
+2023-10-12 09:30:54 info: ================================
+2023-10-12 09:30:54 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:30:54 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:30:54 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:31:00 info: ================================
+2023-10-12 09:31:00 info: ====== ENV: development ========
+2023-10-12 09:31:00 info: 🚀 App listening on the port 3000
+2023-10-12 09:31:00 info: ================================
+2023-10-12 09:31:00 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:31:00 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:31:00 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:32:08 info: ================================
+2023-10-12 09:32:08 info: ====== ENV: development ========
+2023-10-12 09:32:08 info: 🚀 App listening on the port 3000
+2023-10-12 09:32:08 info: ================================
+2023-10-12 09:32:08 info: 0ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:32:08 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:32:08 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:33:41 info: ================================
+2023-10-12 09:33:41 info: ====== ENV: development ========
+2023-10-12 09:33:41 info: 🚀 App listening on the port 3000
+2023-10-12 09:33:41 info: ================================
+2023-10-12 09:33:41 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:33:41 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:33:41 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:38:39 info: ================================
+2023-10-12 09:38:39 info: ====== ENV: development ========
+2023-10-12 09:38:39 info: 🚀 App listening on the port 3000
+2023-10-12 09:38:39 info: ================================
+2023-10-12 09:38:39 info: 0ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:38:39 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:38:39 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:43:14 info: [0mOPTIONS /auth/login [32m204[0m 1.424 ms - 0[0m
+2023-10-12 09:43:14 info: 25ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'jhon' LIMIT 1;
+2023-10-12 09:43:14 error: [POST] /auth/login >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-10-12 09:43:14 info: [0mPOST /auth/login [31m500[0m 183.167 ms - 3[0m
+2023-10-12 09:47:44 info: ================================
+2023-10-12 09:47:44 info: ====== ENV: development ========
+2023-10-12 09:47:44 info: 🚀 App listening on the port 3000
+2023-10-12 09:47:44 info: ================================
+2023-10-12 09:47:44 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:47:44 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:47:44 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:48:26 info: ================================
+2023-10-12 09:48:26 info: ====== ENV: development ========
+2023-10-12 09:48:26 info: 🚀 App listening on the port 3000
+2023-10-12 09:48:26 info: ================================
+2023-10-12 09:48:26 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:48:26 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:48:26 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:50:01 info: ================================
+2023-10-12 09:50:01 info: ====== ENV: development ========
+2023-10-12 09:50:01 info: 🚀 App listening on the port 3000
+2023-10-12 09:50:01 info: ================================
+2023-10-12 09:50:01 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:50:01 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:50:01 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:50:23 info: [0mOPTIONS /auth/login [32m204[0m 1.409 ms - 0[0m
+2023-10-12 09:50:23 info: 2ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'jhon' LIMIT 1;
+2023-10-12 09:50:23 error: [POST] /auth/login >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-10-12 09:50:23 info: [0mPOST /auth/login [31m500[0m 81.083 ms - 3[0m
+2023-10-12 09:51:20 info: ================================
+2023-10-12 09:51:20 info: ====== ENV: development ========
+2023-10-12 09:51:20 info: 🚀 App listening on the port 3000
+2023-10-12 09:51:20 info: ================================
+2023-10-12 09:51:20 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:51:20 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:51:20 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:52:36 info: ================================
+2023-10-12 09:52:36 info: ====== ENV: development ========
+2023-10-12 09:52:36 info: 🚀 App listening on the port 3000
+2023-10-12 09:52:36 info: ================================
+2023-10-12 09:52:36 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:52:36 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:52:36 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:52:43 info: ================================
+2023-10-12 09:52:43 info: ====== ENV: development ========
+2023-10-12 09:52:43 info: 🚀 App listening on the port 3000
+2023-10-12 09:52:43 info: ================================
+2023-10-12 09:52:43 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:52:43 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:52:43 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:53:19 info: [0mOPTIONS /auth/login [32m204[0m 1.649 ms - 0[0m
+2023-10-12 09:53:19 info: 2ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'jhon' LIMIT 1;
+2023-10-12 09:53:19 error: [POST] /auth/login >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-10-12 09:53:19 info: [0mPOST /auth/login [31m500[0m 95.300 ms - 3[0m
+2023-10-12 09:53:50 info: ================================
+2023-10-12 09:53:50 info: ====== ENV: development ========
+2023-10-12 09:53:50 info: 🚀 App listening on the port 3000
+2023-10-12 09:53:50 info: ================================
+2023-10-12 09:53:50 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 09:53:50 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 09:53:50 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 09:54:06 info: [0mOPTIONS /auth/login [32m204[0m 1.630 ms - 0[0m
+2023-10-12 09:54:06 info: 2ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'jhon' LIMIT 1;
+2023-10-12 09:54:06 error: [POST] /auth/login >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-10-12 09:54:06 info: [0mPOST /auth/login [31m500[0m 75.841 ms - 3[0m
+2023-10-12 10:07:30 info: ================================
+2023-10-12 10:07:30 info: ====== ENV: development ========
+2023-10-12 10:07:30 info: 🚀 App listening on the port 3000
+2023-10-12 10:07:30 info: ================================
+2023-10-12 10:07:30 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 10:07:30 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 10:07:30 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 10:08:11 info: ================================
+2023-10-12 10:08:11 info: ====== ENV: development ========
+2023-10-12 10:08:11 info: 🚀 App listening on the port 3000
+2023-10-12 10:08:11 info: ================================
+2023-10-12 10:08:11 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 10:08:11 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 10:08:11 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 10:08:58 info: ================================
+2023-10-12 10:08:58 info: ====== ENV: development ========
+2023-10-12 10:08:58 info: 🚀 App listening on the port 3000
+2023-10-12 10:08:58 info: ================================
+2023-10-12 10:08:58 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 10:08:58 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 10:08:58 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 10:09:22 info: [0mOPTIONS /auth/login [32m204[0m 1.978 ms - 0[0m
+2023-10-12 10:09:22 info: 2ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'jhon' LIMIT 1;
+2023-10-12 10:09:22 error: [POST] /auth/login >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-10-12 10:09:22 info: [0mPOST /auth/login [31m500[0m 87.269 ms - 3[0m
+2023-10-12 10:11:17 error: [POST] /auth/verify-token >> StatusCode:: 404, Message:: Bad Request
+2023-10-12 10:11:17 info: [0mPOST /auth/verify-token [33m404[0m 1.927 ms - 25[0m
+2023-10-12 10:11:18 error: [POST] /auth/verify-token >> StatusCode:: 404, Message:: Bad Request
+2023-10-12 10:11:18 info: [0mPOST /auth/verify-token [33m404[0m 0.952 ms - 25[0m
+2023-10-12 10:11:20 error: [POST] /auth/verify-token >> StatusCode:: 404, Message:: Bad Request
+2023-10-12 10:11:20 info: [0mPOST /auth/verify-token [33m404[0m 2.623 ms - 25[0m
+2023-10-12 10:11:24 error: [POST] /auth/verify-token >> StatusCode:: 404, Message:: Bad Request
+2023-10-12 10:11:24 info: [0mPOST /auth/verify-token [33m404[0m 3.440 ms - 25[0m
+2023-10-12 10:11:33 info: ================================
+2023-10-12 10:11:33 info: ====== ENV: development ========
+2023-10-12 10:11:33 info: 🚀 App listening on the port 3000
+2023-10-12 10:11:33 info: ================================
+2023-10-12 10:11:33 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 10:11:33 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 10:11:33 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 11:25:52 info: ================================
+2023-10-12 11:25:52 info: ====== ENV: development ========
+2023-10-12 11:25:52 info: 🚀 App listening on the port 3000
+2023-10-12 11:25:52 info: ================================
+2023-10-12 11:25:52 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 11:25:52 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 11:25:52 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 11:26:54 info: ================================
+2023-10-12 11:26:54 info: ====== ENV: development ========
+2023-10-12 11:26:54 info: 🚀 App listening on the port 3000
+2023-10-12 11:26:54 info: ================================
+2023-10-12 11:26:54 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 11:26:54 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 11:26:54 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 11:28:00 info: ================================
+2023-10-12 11:28:00 info: ====== ENV: development ========
+2023-10-12 11:28:00 info: 🚀 App listening on the port 3000
+2023-10-12 11:28:00 info: ================================
+2023-10-12 11:28:00 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 11:28:00 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 11:28:00 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 11:29:41 info: ================================
+2023-10-12 11:29:41 info: ====== ENV: development ========
+2023-10-12 11:29:41 info: 🚀 App listening on the port 3000
+2023-10-12 11:29:41 info: ================================
+2023-10-12 11:29:41 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 11:29:41 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 11:29:41 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 11:29:53 info: ================================
+2023-10-12 11:29:53 info: ====== ENV: development ========
+2023-10-12 11:29:53 info: 🚀 App listening on the port 3000
+2023-10-12 11:29:53 info: ================================
+2023-10-12 11:29:53 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 11:29:53 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 11:29:53 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 11:31:35 info: ================================
+2023-10-12 11:31:35 info: ====== ENV: development ========
+2023-10-12 11:31:35 info: 🚀 App listening on the port 3000
+2023-10-12 11:31:35 info: ================================
+2023-10-12 11:31:35 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 11:31:35 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 11:31:35 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 11:31:47 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 11:32:32 info: ================================
+2023-10-12 11:32:32 info: ====== ENV: development ========
+2023-10-12 11:32:32 info: 🚀 App listening on the port 3000
+2023-10-12 11:32:32 info: ================================
+2023-10-12 11:32:32 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 11:32:32 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 11:32:32 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 11:32:34 info: [0mOPTIONS /auth/login [32m204[0m 1.383 ms - 0[0m
+2023-10-12 11:32:34 info: 3ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'jhon' LIMIT 1;
+2023-10-12 11:32:34 info: [0mPOST /auth/login [32m200[0m 72.126 ms - 317[0m
+2023-10-12 11:43:22 info: [0mOPTIONS /jwt [32m204[0m 0.309 ms - 0[0m
+2023-10-12 11:43:22 info: [0mOPTIONS /jwt [32m204[0m 0.316 ms - 0[0m
+2023-10-12 11:43:22 info: [0mGET /jwt [33m404[0m 1.804 ms - 142[0m
+2023-10-12 11:43:22 info: [0mGET /jwt [33m404[0m 1.219 ms - 142[0m
+2023-10-12 11:43:28 info: [0mOPTIONS /jwt [32m204[0m 0.154 ms - 0[0m
+2023-10-12 11:43:28 info: [0mOPTIONS /jwt [32m204[0m 0.187 ms - 0[0m
+2023-10-12 11:43:28 info: [0mGET /jwt [33m404[0m 0.678 ms - 142[0m
+2023-10-12 11:43:28 info: [0mGET /jwt [33m404[0m 0.645 ms - 142[0m
+2023-10-12 11:47:25 info: [0mOPTIONS /auth/login [32m204[0m 0.167 ms - 0[0m
+2023-10-12 11:47:25 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'jhon' LIMIT 1;
+2023-10-12 11:47:25 info: [0mPOST /auth/login [32m200[0m 62.518 ms - 317[0m
+2023-10-12 11:47:25 info: [0mOPTIONS /jwt [32m204[0m 0.214 ms - 0[0m
+2023-10-12 11:47:25 info: [0mGET /jwt [33m404[0m 0.708 ms - 142[0m
+2023-10-12 11:47:25 info: [0mOPTIONS /jwt [32m204[0m 0.179 ms - 0[0m
+2023-10-12 11:47:25 info: [0mGET /jwt [33m404[0m 0.451 ms - 142[0m
+2023-10-12 12:27:51 info: ================================
+2023-10-12 12:27:51 info: ====== ENV: development ========
+2023-10-12 12:27:51 info: 🚀 App listening on the port 3000
+2023-10-12 12:27:51 info: ================================
+2023-10-12 12:27:52 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:27:52 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:27:52 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:29:10 info: ================================
+2023-10-12 12:29:10 info: ====== ENV: development ========
+2023-10-12 12:29:10 info: 🚀 App listening on the port 3000
+2023-10-12 12:29:10 info: ================================
+2023-10-12 12:29:11 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:29:11 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:29:11 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:30:08 info: [0mGET / [33m404[0m 4.374 ms - 139[0m
+2023-10-12 12:30:14 info: 2ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel`;
+2023-10-12 12:30:14 info: [0mGET /users [32m200[0m 22.620 ms - 936[0m
+2023-10-12 12:30:14 info: [0mGET /favicon.ico [33m404[0m 0.776 ms - 150[0m
+2023-10-12 12:30:32 info: 2ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel`;
+2023-10-12 12:30:32 info: [0mGET /users [36m304[0m 14.974 ms - -[0m
+2023-10-12 12:33:52 info: ================================
+2023-10-12 12:33:52 info: ====== ENV: development ========
+2023-10-12 12:33:52 info: 🚀 App listening on the port 3000
+2023-10-12 12:33:52 info: ================================
+2023-10-12 12:33:52 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:33:52 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:33:52 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:34:03 info: ================================
+2023-10-12 12:34:03 info: ====== ENV: development ========
+2023-10-12 12:34:03 info: 🚀 App listening on the port 3000
+2023-10-12 12:34:03 info: ================================
+2023-10-12 12:34:03 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:34:03 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:34:03 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:35:47 info: ================================
+2023-10-12 12:35:47 info: ====== ENV: development ========
+2023-10-12 12:35:47 info: 🚀 App listening on the port 3000
+2023-10-12 12:35:47 info: ================================
+2023-10-12 12:35:47 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:35:47 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:35:47 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:37:26 info: ================================
+2023-10-12 12:37:26 info: ====== ENV: development ========
+2023-10-12 12:37:26 info: 🚀 App listening on the port 3000
+2023-10-12 12:37:26 info: ================================
+2023-10-12 12:37:26 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:37:26 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:37:26 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:39:06 info: ================================
+2023-10-12 12:39:06 info: ====== ENV: development ========
+2023-10-12 12:39:06 info: 🚀 App listening on the port 3000
+2023-10-12 12:39:06 info: ================================
+2023-10-12 12:39:06 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:39:06 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:39:06 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:40:12 info: ================================
+2023-10-12 12:40:12 info: ====== ENV: development ========
+2023-10-12 12:40:12 info: 🚀 App listening on the port 3000
+2023-10-12 12:40:12 info: ================================
+2023-10-12 12:40:12 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:40:12 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:40:12 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:40:24 info: ================================
+2023-10-12 12:40:24 info: ====== ENV: development ========
+2023-10-12 12:40:24 info: 🚀 App listening on the port 3000
+2023-10-12 12:40:24 info: ================================
+2023-10-12 12:40:24 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:40:24 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:40:24 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:40:39 info: ================================
+2023-10-12 12:40:39 info: ====== ENV: development ========
+2023-10-12 12:40:39 info: 🚀 App listening on the port 3000
+2023-10-12 12:40:39 info: ================================
+2023-10-12 12:40:39 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:40:39 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:40:39 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:40:45 info: ================================
+2023-10-12 12:40:45 info: ====== ENV: development ========
+2023-10-12 12:40:45 info: 🚀 App listening on the port 3000
+2023-10-12 12:40:45 info: ================================
+2023-10-12 12:40:45 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:40:45 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:40:45 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:45:16 info: ================================
+2023-10-12 12:45:16 info: ====== ENV: development ========
+2023-10-12 12:45:16 info: 🚀 App listening on the port 3000
+2023-10-12 12:45:16 info: ================================
+2023-10-12 12:45:16 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:45:16 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:45:16 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:46:03 info: ================================
+2023-10-12 12:46:03 info: ====== ENV: development ========
+2023-10-12 12:46:03 info: 🚀 App listening on the port 3000
+2023-10-12 12:46:03 info: ================================
+2023-10-12 12:46:03 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:46:03 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:46:03 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:46:15 info: ================================
+2023-10-12 12:46:15 info: ====== ENV: development ========
+2023-10-12 12:46:15 info: 🚀 App listening on the port 3000
+2023-10-12 12:46:15 info: ================================
+2023-10-12 12:46:15 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:46:15 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:46:15 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:47:14 info: ================================
+2023-10-12 12:47:14 info: ====== ENV: development ========
+2023-10-12 12:47:14 info: 🚀 App listening on the port 3000
+2023-10-12 12:47:14 info: ================================
+2023-10-12 12:47:14 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:47:14 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:47:14 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:47:35 info: ================================
+2023-10-12 12:47:35 info: ====== ENV: development ========
+2023-10-12 12:47:35 info: 🚀 App listening on the port 3000
+2023-10-12 12:47:35 info: ================================
+2023-10-12 12:47:35 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:47:35 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:47:35 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:48:02 info: ================================
+2023-10-12 12:48:02 info: ====== ENV: development ========
+2023-10-12 12:48:02 info: 🚀 App listening on the port 3000
+2023-10-12 12:48:02 info: ================================
+2023-10-12 12:48:02 info: 0ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:48:02 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:48:02 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:48:31 info: ================================
+2023-10-12 12:48:31 info: ====== ENV: development ========
+2023-10-12 12:48:31 info: 🚀 App listening on the port 3000
+2023-10-12 12:48:31 info: ================================
+2023-10-12 12:48:31 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:48:31 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:48:31 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:49:59 info: ================================
+2023-10-12 12:49:59 info: ====== ENV: development ========
+2023-10-12 12:49:59 info: 🚀 App listening on the port 3000
+2023-10-12 12:49:59 info: ================================
+2023-10-12 12:49:59 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:49:59 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:49:59 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:53:50 info: ================================
+2023-10-12 12:53:50 info: ====== ENV: development ========
+2023-10-12 12:53:50 info: 🚀 App listening on the port 3000
+2023-10-12 12:53:50 info: ================================
+2023-10-12 12:53:50 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:53:50 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:53:50 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:53:59 info: ================================
+2023-10-12 12:53:59 info: ====== ENV: development ========
+2023-10-12 12:53:59 info: 🚀 App listening on the port 3000
+2023-10-12 12:53:59 info: ================================
+2023-10-12 12:53:59 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:53:59 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:53:59 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:54:05 info: ================================
+2023-10-12 12:54:05 info: ====== ENV: development ========
+2023-10-12 12:54:05 info: 🚀 App listening on the port 3000
+2023-10-12 12:54:05 info: ================================
+2023-10-12 12:54:05 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:54:05 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:54:05 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:54:08 info: ================================
+2023-10-12 12:54:08 info: ====== ENV: development ========
+2023-10-12 12:54:08 info: 🚀 App listening on the port 3000
+2023-10-12 12:54:08 info: ================================
+2023-10-12 12:54:08 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:54:08 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:54:08 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:57:24 info: ================================
+2023-10-12 12:57:24 info: ====== ENV: development ========
+2023-10-12 12:57:24 info: 🚀 App listening on the port 3000
+2023-10-12 12:57:24 info: ================================
+2023-10-12 12:57:24 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:57:24 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:57:24 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:57:36 info: ================================
+2023-10-12 12:57:36 info: ====== ENV: development ========
+2023-10-12 12:57:36 info: 🚀 App listening on the port 3000
+2023-10-12 12:57:36 info: ================================
+2023-10-12 12:57:36 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:57:36 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:57:36 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 12:58:44 info: ================================
+2023-10-12 12:58:44 info: ====== ENV: development ========
+2023-10-12 12:58:44 info: 🚀 App listening on the port 3000
+2023-10-12 12:58:44 info: ================================
+2023-10-12 12:58:44 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 12:58:44 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 12:58:44 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:00:01 info: ================================
+2023-10-12 13:00:01 info: ====== ENV: development ========
+2023-10-12 13:00:01 info: 🚀 App listening on the port 3000
+2023-10-12 13:00:01 info: ================================
+2023-10-12 13:00:01 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:00:01 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:00:01 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:02:37 info: ================================
+2023-10-12 13:02:37 info: ====== ENV: development ========
+2023-10-12 13:02:37 info: 🚀 App listening on the port 3000
+2023-10-12 13:02:37 info: ================================
+2023-10-12 13:03:07 info: ================================
+2023-10-12 13:03:07 info: ====== ENV: development ========
+2023-10-12 13:03:07 info: 🚀 App listening on the port 3000
+2023-10-12 13:03:07 info: ================================
+2023-10-12 13:03:18 info: ================================
+2023-10-12 13:03:18 info: ====== ENV: development ========
+2023-10-12 13:03:18 info: 🚀 App listening on the port 3000
+2023-10-12 13:03:18 info: ================================
+2023-10-12 13:03:18 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:03:18 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:03:18 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:04:09 info: ================================
+2023-10-12 13:04:09 info: ====== ENV: development ========
+2023-10-12 13:04:09 info: 🚀 App listening on the port 3000
+2023-10-12 13:04:09 info: ================================
+2023-10-12 13:04:09 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:04:09 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:04:09 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:04:21 info: ================================
+2023-10-12 13:04:21 info: ====== ENV: development ========
+2023-10-12 13:04:21 info: 🚀 App listening on the port 3000
+2023-10-12 13:04:21 info: ================================
+2023-10-12 13:04:21 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:04:21 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:04:21 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:05:42 info: ================================
+2023-10-12 13:05:42 info: ====== ENV: development ========
+2023-10-12 13:05:42 info: 🚀 App listening on the port 3000
+2023-10-12 13:05:42 info: ================================
+2023-10-12 13:05:42 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:05:42 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:05:42 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:06:28 info: ================================
+2023-10-12 13:06:28 info: ====== ENV: development ========
+2023-10-12 13:06:28 info: 🚀 App listening on the port 3000
+2023-10-12 13:06:28 info: ================================
+2023-10-12 13:06:28 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:06:28 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:06:28 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:07:08 info: ================================
+2023-10-12 13:07:08 info: ====== ENV: development ========
+2023-10-12 13:07:08 info: 🚀 App listening on the port 3000
+2023-10-12 13:07:08 info: ================================
+2023-10-12 13:07:08 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:07:08 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:07:08 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:09:19 info: ================================
+2023-10-12 13:09:19 info: ====== ENV: development ========
+2023-10-12 13:09:19 info: 🚀 App listening on the port 3000
+2023-10-12 13:09:19 info: ================================
+2023-10-12 13:09:19 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:09:19 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:09:19 info: 439ms Executed (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER auto_increment , `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255) NOT NULL, `email` VARCHAR(45) NOT NULL, `phone` VARCHAR(45) NOT NULL, `img_url` VARCHAR(255) NOT NULL, `role` VARCHAR(45) NOT NULL DEFAULT 'cashier', `password` VARCHAR(255) NOT NULL, `refresh_token` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE utf8mb4_general_ci;
+2023-10-12 13:09:19 info: 33ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:09:33 info: 3ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel`;
+2023-10-12 13:09:33 info: [0mGET /users [32m200[0m 23.964 ms - 31[0m
+2023-10-12 13:12:51 info: [0mOPTIONS /auth/signup [32m204[0m 0.501 ms - 0[0m
+2023-10-12 13:12:51 info: [0mPOST /auth/signup [33m404[0m 8.713 ms - 151[0m
+2023-10-12 13:13:25 info: ================================
+2023-10-12 13:13:25 info: ====== ENV: development ========
+2023-10-12 13:13:25 info: 🚀 App listening on the port 3000
+2023-10-12 13:13:25 info: ================================
+2023-10-12 13:13:25 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:13:25 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:13:25 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:14:04 info: [0mOPTIONS /auth/signup [32m204[0m 1.196 ms - 0[0m
+2023-10-12 13:14:05 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`email` = 'putuhendra@gmail.om' LIMIT 1;
+2023-10-12 13:14:05 info: 2ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`id` = 1;
+2023-10-12 13:14:05 info: 116ms Executed (default): INSERT INTO `users` (`id`,`name`,`username`,`email`,`phone`,`img_url`,`role`,`password`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?); "putu mahendra", "putuhema", "putuhendra@gmail.om", "021222333444", "github.com/putuhema.png", "admin", "$2b$10$sZ/iOEdtZzhuEo5sNDTFWuSY2rnUoDJmkm5orVJEJGPoJspP0F7Mq", "2023-10-12 14:14:05", "2023-10-12 14:14:05"
+2023-10-12 13:14:05 info: [0mPOST /auth/signup [32m201[0m 216.532 ms - 336[0m
+2023-10-12 13:14:57 info: [0mOPTIONS /auth/login [32m204[0m 0.520 ms - 0[0m
+2023-10-12 13:14:57 info: 3ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 13:14:58 info: 426ms Executed (default): UPDATE `users` SET `refresh_token`=?,`updated_at`=? WHERE `id` = ?; "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjk3MDg3Njk3LCJleHAiOjE2OTcxNzQwOTd9.YxuwAd8-w_p_OGbw9yTfVwqzFzj-cujeJSayXoE1e8o", "2023-10-12 14:14:57", 1
+2023-10-12 13:14:58 info: [0mPOST /auth/login [32m200[0m 503.005 ms - 515[0m
+2023-10-12 13:15:38 info: [0mOPTIONS /jwt [32m204[0m 0.186 ms - 0[0m
+2023-10-12 13:15:38 info: [0mGET /jwt [33m404[0m 3.100 ms - 142[0m
+2023-10-12 13:15:38 info: [0mOPTIONS /jwt [32m204[0m 0.169 ms - 0[0m
+2023-10-12 13:15:38 info: [0mGET /jwt [33m404[0m 0.873 ms - 142[0m
+2023-10-12 13:17:58 info: ================================
+2023-10-12 13:17:58 info: ====== ENV: development ========
+2023-10-12 13:17:58 info: 🚀 App listening on the port 3000
+2023-10-12 13:17:58 info: ================================
+2023-10-12 13:17:58 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:17:58 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:17:58 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:19:45 info: ================================
+2023-10-12 13:19:45 info: ====== ENV: development ========
+2023-10-12 13:19:45 info: 🚀 App listening on the port 3000
+2023-10-12 13:19:45 info: ================================
+2023-10-12 13:19:45 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:19:45 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:19:45 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:21:28 info: ================================
+2023-10-12 13:21:28 info: ====== ENV: development ========
+2023-10-12 13:21:28 info: 🚀 App listening on the port 3000
+2023-10-12 13:21:28 info: ================================
+2023-10-12 13:21:28 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:21:28 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:21:28 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:21:50 info: ================================
+2023-10-12 13:21:50 info: ====== ENV: development ========
+2023-10-12 13:21:50 info: 🚀 App listening on the port 3000
+2023-10-12 13:21:50 info: ================================
+2023-10-12 13:21:50 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:21:50 info: 3ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:21:50 info: 4ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:22:04 info: ================================
+2023-10-12 13:22:04 info: ====== ENV: development ========
+2023-10-12 13:22:04 info: 🚀 App listening on the port 3000
+2023-10-12 13:22:04 info: ================================
+2023-10-12 13:22:04 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:22:04 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:22:04 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:23:09 info: ================================
+2023-10-12 13:23:09 info: ====== ENV: development ========
+2023-10-12 13:23:09 info: 🚀 App listening on the port 3000
+2023-10-12 13:23:09 info: ================================
+2023-10-12 13:23:09 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:23:09 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:23:09 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:24:31 info: ================================
+2023-10-12 13:24:31 info: ====== ENV: development ========
+2023-10-12 13:24:31 info: 🚀 App listening on the port 3000
+2023-10-12 13:24:31 info: ================================
+2023-10-12 13:24:31 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:24:31 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:24:31 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:33:18 info: [0mOPTIONS /jwt [32m204[0m 1.921 ms - 0[0m
+2023-10-12 13:33:18 info: [0mOPTIONS /jwt [32m204[0m 1.028 ms - 0[0m
+2023-10-12 13:33:18 info: [0mGET /jwt [33m404[0m 9.625 ms - 142[0m
+2023-10-12 13:33:18 info: [0mGET /jwt [33m404[0m 1.057 ms - 142[0m
+2023-10-12 13:34:35 info: [0mOPTIONS /jwt [32m204[0m 0.204 ms - 0[0m
+2023-10-12 13:34:35 info: [0mOPTIONS /jwt [32m204[0m 0.146 ms - 0[0m
+2023-10-12 13:34:35 info: [0mGET /jwt [33m404[0m 1.239 ms - 142[0m
+2023-10-12 13:34:35 info: [0mGET /jwt [33m404[0m 1.146 ms - 142[0m
+2023-10-12 13:41:16 info: [0mOPTIONS /jwt [32m204[0m 0.281 ms - 0[0m
+2023-10-12 13:41:16 info: [0mOPTIONS /jwt [32m204[0m 0.289 ms - 0[0m
+2023-10-12 13:41:16 info: [0mGET /jwt [33m404[0m 0.835 ms - 142[0m
+2023-10-12 13:41:16 info: [0mGET /jwt [33m404[0m 0.806 ms - 142[0m
+2023-10-12 13:42:00 info: [0mOPTIONS /users [32m204[0m 0.187 ms - 0[0m
+2023-10-12 13:42:11 info: [0mOPTIONS /users [32m204[0m 0.184 ms - 0[0m
+2023-10-12 13:42:34 info: [0mOPTIONS /users [32m204[0m 0.184 ms - 0[0m
+2023-10-12 13:43:54 info: 2ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel`;
+2023-10-12 13:43:54 info: [0mGET /users [32m200[0m 16.752 ms - 494[0m
+2023-10-12 13:44:15 info: [0mOPTIONS /users [32m204[0m 0.202 ms - 0[0m
+2023-10-12 13:46:19 info: [0mOPTIONS /auth/login [32m204[0m 0.352 ms - 0[0m
+2023-10-12 13:46:19 info: 0ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 13:46:19 error: [POST] /auth/login >> StatusCode:: 409, Message:: Password not matching
+2023-10-12 13:46:19 info: [0mPOST /auth/login [33m409[0m 70.341 ms - 35[0m
+2023-10-12 13:46:29 info: [0mOPTIONS /auth/login [32m204[0m 0.225 ms - 0[0m
+2023-10-12 13:46:29 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 13:46:29 info: 107ms Executed (default): UPDATE `users` SET `refresh_token`=?,`updated_at`=? WHERE `id` = ?; "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjk3MDg5NTg5LCJleHAiOjE2OTcxNzU5ODl9.6DsUIXvBB_gvp4ABM_bCuaOr7uSttyCkW_3-QlnjF0Q", "2023-10-12 14:46:29", 1
+2023-10-12 13:46:29 info: [0mPOST /auth/login [32m200[0m 176.093 ms - 650[0m
+2023-10-12 13:46:29 info: [0mOPTIONS /users [32m204[0m 0.223 ms - 0[0m
+2023-10-12 13:47:38 info: ================================
+2023-10-12 13:47:38 info: ====== ENV: development ========
+2023-10-12 13:47:38 info: 🚀 App listening on the port 3000
+2023-10-12 13:47:38 info: ================================
+2023-10-12 13:47:38 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:47:38 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:47:38 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:47:41 info: 3ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel`;
+2023-10-12 13:47:41 info: [0mGET /users [32m200[0m 22.095 ms - 494[0m
+2023-10-12 13:47:44 info: [0mGET / [33m404[0m 3.875 ms - 139[0m
+2023-10-12 13:47:48 info: [0mGET / [33m404[0m 2.627 ms - 139[0m
+2023-10-12 13:49:06 info: [0mOPTIONS /auth/login [32m204[0m 0.616 ms - 0[0m
+2023-10-12 13:49:06 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 13:49:06 info: 64ms Executed (default): UPDATE `users` SET `refresh_token`=?,`updated_at`=? WHERE `id` = ?; "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjk3MDg5NzQ2LCJleHAiOjE2OTcxNzYxNDZ9.fZ88wgAfmCUkBj3u4mYTJyi-ZxtEm1Z8jb1eKLJEdFs", "2023-10-12 14:49:06", 1
+2023-10-12 13:49:06 info: [0mPOST /auth/login [32m200[0m 139.326 ms - 650[0m
+2023-10-12 13:49:06 info: [0mOPTIONS /users [32m204[0m 0.326 ms - 0[0m
+2023-10-12 13:50:17 info: [0mOPTIONS /auth/login [32m204[0m 0.210 ms - 0[0m
+2023-10-12 13:50:17 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 13:50:17 info: 164ms Executed (default): UPDATE `users` SET `refresh_token`=?,`updated_at`=? WHERE `id` = ?; "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjk3MDg5ODE3LCJleHAiOjE2OTcxNzYyMTd9.rVd8p12CKvz2-CWALzWdI2ChxDhUWJ55ZcfbrSNbGrY", "2023-10-12 14:50:17", 1
+2023-10-12 13:50:17 info: [0mPOST /auth/login [32m200[0m 229.930 ms - 650[0m
+2023-10-12 13:50:17 info: [0mOPTIONS /users [32m204[0m 0.222 ms - 0[0m
+2023-10-12 13:51:13 info: [0mOPTIONS /auth/login [32m204[0m 1.700 ms - 0[0m
+2023-10-12 13:51:13 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 13:51:13 info: 62ms Executed (default): UPDATE `users` SET `refresh_token`=?,`updated_at`=? WHERE `id` = ?; "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjk3MDg5ODczLCJleHAiOjE2OTcxNzYyNzN9.cAY5GY19qnNKSiWDvh6YXQNxdzC-BzGH67D_ru6khT4", "2023-10-12 14:51:13", 1
+2023-10-12 13:51:13 info: [0mPOST /auth/login [32m200[0m 125.134 ms - 650[0m
+2023-10-12 13:51:13 info: [0mOPTIONS /users [32m204[0m 0.536 ms - 0[0m
+2023-10-12 13:54:00 info: ================================
+2023-10-12 13:54:00 info: ====== ENV: development ========
+2023-10-12 13:54:00 info: 🚀 App listening on the port 3000
+2023-10-12 13:54:00 info: ================================
+2023-10-12 13:54:00 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:54:00 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:54:00 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:54:12 info: [0mOPTIONS /auth/login [32m204[0m 1.591 ms - 0[0m
+2023-10-12 13:54:12 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 13:54:13 info: 138ms Executed (default): UPDATE `users` SET `refresh_token`=?,`updated_at`=? WHERE `id` = ?; "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjk3MDkwMDUyLCJleHAiOjE2OTcxNzY0NTJ9.E03HeVCy6uYQFlE57KMK3EHABk_xZ4zmNRwaBjOGFWY", "2023-10-12 14:54:12", 1
+2023-10-12 13:54:13 info: [0mPOST /auth/login [32m200[0m 222.482 ms - 650[0m
+2023-10-12 13:54:13 info: [0mOPTIONS /users [32m204[0m 0.434 ms - 0[0m
+2023-10-12 13:54:33 info: [0mOPTIONS /auth/login [32m204[0m 0.307 ms - 0[0m
+2023-10-12 13:54:33 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 13:54:33 info: 105ms Executed (default): UPDATE `users` SET `refresh_token`=?,`updated_at`=? WHERE `id` = ?; "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjk3MDkwMDczLCJleHAiOjE2OTcxNzY0NzN9.ixSdyXOJYMwD-4sK06rkL6_MAgyyswD3KHQnK5dYMFI", "2023-10-12 14:54:33", 1
+2023-10-12 13:54:33 info: [0mPOST /auth/login [32m200[0m 172.704 ms - 650[0m
+2023-10-12 13:54:33 info: [0mOPTIONS /users [32m204[0m 0.256 ms - 0[0m
+2023-10-12 13:54:51 info: ================================
+2023-10-12 13:54:51 info: ====== ENV: development ========
+2023-10-12 13:54:51 info: 🚀 App listening on the port 3000
+2023-10-12 13:54:51 info: ================================
+2023-10-12 13:54:51 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:54:51 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:54:51 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:55:12 info: [0mOPTIONS /auth/login [32m204[0m 2.273 ms - 0[0m
+2023-10-12 13:55:12 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 13:55:13 info: 79ms Executed (default): UPDATE `users` SET `refresh_token`=?,`updated_at`=? WHERE `id` = ?; "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjk3MDkwMTEyLCJleHAiOjE2OTcxNzY1MTJ9.X1trFqm_PT_-mK5RLr23-H4YFwvRAkMtDKDn5O0smF4", "2023-10-12 14:55:12", 1
+2023-10-12 13:55:13 info: [0mPOST /auth/login [32m200[0m 164.435 ms - 650[0m
+2023-10-12 13:55:13 info: [0mOPTIONS /users [32m204[0m 0.374 ms - 0[0m
+2023-10-12 13:55:24 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel`;
+2023-10-12 13:55:24 info: [0mGET /users [32m200[0m 13.026 ms - 494[0m
+2023-10-12 13:56:08 info: ================================
+2023-10-12 13:56:08 info: ====== ENV: development ========
+2023-10-12 13:56:08 info: 🚀 App listening on the port 3000
+2023-10-12 13:56:08 info: ================================
+2023-10-12 13:56:08 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 13:56:08 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 13:56:08 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 13:56:22 info: [0mOPTIONS /auth/login [32m200[0m 1.788 ms - 0[0m
+2023-10-12 13:56:22 info: 2ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 13:56:22 info: 92ms Executed (default): UPDATE `users` SET `refresh_token`=?,`updated_at`=? WHERE `id` = ?; "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjk3MDkwMTgyLCJleHAiOjE2OTcxNzY1ODJ9.5jIrSSXrXqxC1C65xz_h9tcqj1Bx-o7si0bwbWJmZjo", "2023-10-12 14:56:22", 1
+2023-10-12 13:56:22 info: [0mPOST /auth/login [32m200[0m 187.984 ms - 650[0m
+2023-10-12 13:56:22 info: [0mOPTIONS /users [32m200[0m 0.217 ms - 0[0m
+2023-10-12 13:56:22 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel`;
+2023-10-12 13:56:22 info: [0mGET /users [32m200[0m 5.048 ms - 494[0m
+2023-10-12 13:57:50 info: [0mOPTIONS /auth/login [32m200[0m 0.167 ms - 0[0m
+2023-10-12 13:57:50 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 13:57:50 error: [POST] /auth/login >> StatusCode:: 409, Message:: Password not matching
+2023-10-12 13:57:50 info: [0mPOST /auth/login [33m409[0m 61.248 ms - 35[0m
+2023-10-12 13:58:19 info: [0mOPTIONS /auth/login [32m200[0m 0.555 ms - 0[0m
+2023-10-12 13:58:19 info: 0ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 13:58:19 info: 89ms Executed (default): UPDATE `users` SET `refresh_token`=?,`updated_at`=? WHERE `id` = ?; "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjk3MDkwMjk5LCJleHAiOjE2OTcxNzY2OTl9.93TNP1mpqHWcqkhIOKPtHbn5h98qMnGWAWpA5zAH43Y", "2023-10-12 14:58:19", 1
+2023-10-12 13:58:19 info: [0mPOST /auth/login [32m200[0m 155.235 ms - 650[0m
+2023-10-12 13:58:19 info: [0mOPTIONS /users [32m200[0m 0.442 ms - 0[0m
+2023-10-12 13:58:19 info: 2ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `refresh_token` AS `refreshToken`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel`;
+2023-10-12 13:58:19 info: [0mGET /users [32m200[0m 5.543 ms - 494[0m
+2023-10-12 17:55:45 info: ================================
+2023-10-12 17:55:45 info: ====== ENV: development ========
+2023-10-12 17:55:45 info: 🚀 App listening on the port 3000
+2023-10-12 17:55:45 info: ================================
+2023-10-12 17:55:45 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 17:55:45 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 17:55:45 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 17:55:56 info: ================================
+2023-10-12 17:55:56 info: ====== ENV: development ========
+2023-10-12 17:55:56 info: 🚀 App listening on the port 3000
+2023-10-12 17:55:56 info: ================================
+2023-10-12 17:55:56 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 17:55:56 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 17:55:56 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 17:56:09 info: ================================
+2023-10-12 17:56:09 info: ====== ENV: development ========
+2023-10-12 17:56:09 info: 🚀 App listening on the port 3000
+2023-10-12 17:56:09 info: ================================
+2023-10-12 17:56:09 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 17:56:09 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 17:56:09 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 17:56:12 info: ================================
+2023-10-12 17:56:12 info: ====== ENV: development ========
+2023-10-12 17:56:12 info: 🚀 App listening on the port 3000
+2023-10-12 17:56:12 info: ================================
+2023-10-12 17:56:12 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 17:56:12 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 17:56:12 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 18:01:18 info: ================================
+2023-10-12 18:01:18 info: ====== ENV: development ========
+2023-10-12 18:01:18 info: 🚀 App listening on the port 3000
+2023-10-12 18:01:18 info: ================================
+2023-10-12 18:01:18 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 18:01:18 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 18:01:18 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 18:04:09 info: ================================
+2023-10-12 18:04:09 info: ====== ENV: development ========
+2023-10-12 18:04:09 info: 🚀 App listening on the port 3000
+2023-10-12 18:04:09 info: ================================
+2023-10-12 18:04:09 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 18:04:09 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 18:04:09 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 18:04:48 info: ================================
+2023-10-12 18:04:48 info: ====== ENV: development ========
+2023-10-12 18:04:48 info: 🚀 App listening on the port 3000
+2023-10-12 18:04:48 info: ================================
+2023-10-12 18:04:48 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 18:04:48 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 18:04:48 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 18:05:06 info: ================================
+2023-10-12 18:05:06 info: ====== ENV: development ========
+2023-10-12 18:05:06 info: 🚀 App listening on the port 3000
+2023-10-12 18:05:06 info: ================================
+2023-10-12 18:05:06 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 18:05:06 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 18:05:06 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 18:05:08 info: ================================
+2023-10-12 18:05:08 info: ====== ENV: development ========
+2023-10-12 18:05:08 info: 🚀 App listening on the port 3000
+2023-10-12 18:05:08 info: ================================
+2023-10-12 18:05:08 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 18:05:08 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 18:05:08 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 18:05:38 info: ================================
+2023-10-12 18:05:38 info: ====== ENV: development ========
+2023-10-12 18:05:38 info: 🚀 App listening on the port 3000
+2023-10-12 18:05:38 info: ================================
+2023-10-12 18:05:38 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 18:05:38 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 18:05:38 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 18:05:45 info: ================================
+2023-10-12 18:05:45 info: ====== ENV: development ========
+2023-10-12 18:05:45 info: 🚀 App listening on the port 3000
+2023-10-12 18:05:45 info: ================================
+2023-10-12 18:05:45 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 18:05:45 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 18:05:45 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 18:06:26 info: ================================
+2023-10-12 18:06:26 info: ====== ENV: development ========
+2023-10-12 18:06:26 info: 🚀 App listening on the port 3000
+2023-10-12 18:06:26 info: ================================
+2023-10-12 18:06:26 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 18:06:26 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 18:06:26 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 18:07:44 info: ================================
+2023-10-12 18:07:44 info: ====== ENV: development ========
+2023-10-12 18:07:44 info: 🚀 App listening on the port 3000
+2023-10-12 18:07:44 info: ================================
+2023-10-12 18:07:44 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 18:07:44 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 18:07:44 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 18:07:58 info: ================================
+2023-10-12 18:07:58 info: ====== ENV: development ========
+2023-10-12 18:07:58 info: 🚀 App listening on the port 3000
+2023-10-12 18:07:58 info: ================================
+2023-10-12 18:07:58 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 18:07:58 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 18:07:58 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 20:02:12 info: [0mOPTIONS /auth/login [32m200[0m 1.589 ms - 0[0m
+2023-10-12 20:02:12 info: 2ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 20:02:12 info: [0mPOST /auth/login [32m200[0m 78.841 ms - 330[0m
+2023-10-12 20:12:46 info: [0mOPTIONS /auth/login [32m200[0m 0.179 ms - 0[0m
+2023-10-12 20:12:46 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 20:12:46 info: [0mPOST /auth/login [32m200[0m 60.152 ms - 330[0m
+2023-10-12 20:28:06 info: ================================
+2023-10-12 20:28:06 info: ====== ENV: development ========
+2023-10-12 20:28:06 info: 🚀 App listening on the port 3000
+2023-10-12 20:28:06 info: ================================
+2023-10-12 20:28:06 info: 0ms Executed (default): SELECT 1+1 AS result
+2023-10-12 20:28:06 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 20:28:06 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 20:29:44 info: ================================
+2023-10-12 20:29:44 info: ====== ENV: development ========
+2023-10-12 20:29:44 info: 🚀 App listening on the port 3000
+2023-10-12 20:29:44 info: ================================
+2023-10-12 20:29:44 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 20:29:44 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 20:29:44 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 20:30:07 info: ================================
+2023-10-12 20:30:07 info: ====== ENV: development ========
+2023-10-12 20:30:07 info: 🚀 App listening on the port 3000
+2023-10-12 20:30:07 info: ================================
+2023-10-12 20:30:07 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 20:30:07 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 20:30:07 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 20:31:17 info: [0mOPTIONS /auth/login [32m200[0m 2.218 ms - 0[0m
+2023-10-12 20:31:17 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 20:31:17 info: [0mPOST /auth/login [32m200[0m 73.412 ms - 330[0m
+2023-10-12 20:34:38 info: ================================
+2023-10-12 20:34:38 info: ====== ENV: development ========
+2023-10-12 20:34:38 info: 🚀 App listening on the port 3000
+2023-10-12 20:34:38 info: ================================
+2023-10-12 20:34:38 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 20:34:38 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 20:34:38 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 20:36:24 info: ================================
+2023-10-12 20:36:24 info: ====== ENV: development ========
+2023-10-12 20:36:24 info: 🚀 App listening on the port 3000
+2023-10-12 20:36:24 info: ================================
+2023-10-12 20:36:24 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 20:36:24 info: 1ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 20:36:24 info: 3ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 20:36:32 info: ================================
+2023-10-12 20:36:32 info: ====== ENV: development ========
+2023-10-12 20:36:32 info: 🚀 App listening on the port 3000
+2023-10-12 20:36:32 info: ================================
+2023-10-12 20:36:32 info: 2ms Executed (default): SELECT 1+1 AS result
+2023-10-12 20:36:32 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 20:36:32 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 20:37:07 info: ================================
+2023-10-12 20:37:07 info: ====== ENV: development ========
+2023-10-12 20:37:07 info: 🚀 App listening on the port 3000
+2023-10-12 20:37:07 info: ================================
+2023-10-12 20:37:07 info: 1ms Executed (default): SELECT 1+1 AS result
+2023-10-12 20:37:07 info: 2ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'kasirku'
+2023-10-12 20:37:07 info: 2ms Executed (default): SHOW INDEX FROM `users`
+2023-10-12 20:37:30 info: [0mOPTIONS /auth/login [32m200[0m 1.839 ms - 0[0m
+2023-10-12 20:37:30 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 20:37:30 info: [0mPOST /auth/login [32m200[0m 74.295 ms - 206[0m
+2023-10-12 20:52:16 info: [0mOPTIONS /auth/login [32m200[0m 0.265 ms - 0[0m
+2023-10-12 20:52:17 info: 2ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'hindia@gmail.com' LIMIT 1;
+2023-10-12 20:52:17 error: [POST] /auth/login >> StatusCode:: 409, Message:: This Username hindia@gmail.com was not found
+2023-10-12 20:52:17 info: [0mPOST /auth/login [33m409[0m 870.947 ms - 58[0m
+2023-10-12 20:52:40 info: [0mOPTIONS /auth/login [32m200[0m 0.172 ms - 0[0m
+2023-10-12 20:52:40 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 20:52:40 info: [0mPOST /auth/login [32m200[0m 89.254 ms - 206[0m
+2023-10-12 21:00:03 info: [0mOPTIONS /auth/login [32m200[0m 1.444 ms - 0[0m
+2023-10-12 21:00:03 info: 0ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 21:00:03 info: [0mPOST /auth/login [32m200[0m 81.201 ms - 206[0m
+2023-10-12 21:00:38 info: [0mOPTIONS /auth/login [32m200[0m 0.151 ms - 0[0m
+2023-10-12 21:00:38 info: 0ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 21:00:38 info: [0mPOST /auth/login [32m200[0m 59.294 ms - 206[0m
+2023-10-12 21:10:18 info: [0mOPTIONS /auth/login [32m200[0m 0.124 ms - 0[0m
+2023-10-12 21:10:18 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 21:10:18 info: [0mPOST /auth/login [32m200[0m 66.912 ms - 206[0m
+2023-10-12 21:10:57 info: [0mOPTIONS /auth/signup [32m200[0m 0.140 ms - 0[0m
+2023-10-12 21:10:57 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`email` = 'jhon@gmail.com' LIMIT 1;
+2023-10-12 21:10:57 info: 0ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`id` = 1;
+2023-10-12 21:10:57 info: 97ms Executed (default): INSERT INTO `users` (`id`,`name`,`username`,`email`,`phone`,`img_url`,`role`,`password`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?); "jhon", "jhon", "jhon@gmail.com", "01234555", "github.com/putuhema.png", "cashier", "$2b$10$7/eCs.b7GtwWCxFj.GiM6ui/6dL/6vl/DKv6CPY3wlItSxXWPe9Km", "2023-10-12 22:10:57", "2023-10-12 22:10:57"
+2023-10-12 21:10:57 info: [0mPOST /auth/signup [32m201[0m 193.526 ms - 316[0m
+2023-10-12 21:11:13 info: [0mOPTIONS /auth/login [32m200[0m 0.250 ms - 0[0m
+2023-10-12 21:11:13 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'jhon' LIMIT 1;
+2023-10-12 21:11:13 info: [0mPOST /auth/login [32m200[0m 66.918 ms - 211[0m
+2023-10-12 21:25:06 info: [0mOPTIONS /auth/login [32m200[0m 0.245 ms - 0[0m
+2023-10-12 21:25:06 info: 0ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 21:25:06 info: [0mPOST /auth/login [32m200[0m 60.439 ms - 206[0m
+2023-10-12 21:31:21 info: [0mOPTIONS /auth/login [32m200[0m 0.188 ms - 0[0m
+2023-10-12 21:31:21 info: 1ms Executed (default): SELECT `id`, `name`, `username`, `email`, `phone`, `img_url` AS `imgUrl`, `role`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`username` = 'putuhema' LIMIT 1;
+2023-10-12 21:31:21 info: [0mPOST /auth/login [32m200[0m 59.122 ms - 206[0m

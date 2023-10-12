@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/phmahendra/code/webdev/kasirku/server/src/logs/error/.4c3d5e441d5094d935f502765c2ca9e79a253f3b-audit.json",
+    "files": [
+        {
+            "date": 1697013912183,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/error/2023-10-11.log",
+            "hash": "afe1615ba8a2607a9c0070582ba80ae89fa6671a32628d96107c56cf2ee8723f"
+        },
+        {
+            "date": 1697062910054,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/error/2023-10-12.log",
+            "hash": "1f9d4f012072b2eb6bc223674f4632fb41eaeefbcb9b0001629bb93e3f908452"
+        }
+    ],
+    "hashType": "sha256"
+}

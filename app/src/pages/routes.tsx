@@ -1,10 +1,22 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
+import Auth from "./auth";
+import PrivateRoutes from "./PrivateRoutes";
+import Home from "./home";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Auth />,
+  },
+  {
+    path: "/home",
+    element: <PrivateRoutes />,
+    children: [
+      {
+        path: "",
+        element: <Home />,
+      },
+    ],
   },
 ]);
 

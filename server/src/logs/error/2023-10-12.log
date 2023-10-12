@@ -1,0 +1,94 @@
+2023-10-12 06:33:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m42[0m:[93m7[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m42[0m       })
+[7m  [0m [91m      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m42[0m:[93m7[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m42[0m       })
+[7m  [0m [91m      ~[0m
+
+    at createTSError (/home/phmahendra/code/webdev/kasirku/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/phmahendra/code/webdev/kasirku/server/node_modules/ts-node/src/index.ts:863:19)
+    at /home/phmahendra/code/webdev/kasirku/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/phmahendra/code/webdev/kasirku/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/phmahendra/code/webdev/kasirku/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/phmahendra/code/webdev/kasirku/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-10-12 06:52:25 error: uncaughtException: sessio is not defined
+ReferenceError: sessio is not defined
+    at App.initializeMiddleware (/home/phmahendra/code/webdev/kasirku/server/src/app.ts:48:18)
+    at new App (/home/phmahendra/code/webdev/kasirku/server/src/app.ts:24:10)
+    at Object.<anonymous> (/home/phmahendra/code/webdev/kasirku/server/src/server.ts:8:13)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (/home/phmahendra/code/webdev/kasirku/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/phmahendra/code/webdev/kasirku/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-10-12 06:54:21 error: uncaughtException: sessio is not defined
+ReferenceError: sessio is not defined
+    at App.initializeMiddleware (/home/phmahendra/code/webdev/kasirku/server/src/app.ts:48:18)
+    at new App (/home/phmahendra/code/webdev/kasirku/server/src/app.ts:24:10)
+    at Object.<anonymous> (/home/phmahendra/code/webdev/kasirku/server/src/server.ts:8:13)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (/home/phmahendra/code/webdev/kasirku/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/phmahendra/code/webdev/kasirku/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-10-12 09:43:14 error: [POST] /auth/login >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-10-12 09:50:23 error: [POST] /auth/login >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-10-12 09:53:19 error: [POST] /auth/login >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-10-12 09:54:06 error: [POST] /auth/login >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-10-12 10:09:22 error: [POST] /auth/login >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-10-12 10:11:17 error: [POST] /auth/verify-token >> StatusCode:: 404, Message:: Bad Request
+2023-10-12 10:11:18 error: [POST] /auth/verify-token >> StatusCode:: 404, Message:: Bad Request
+2023-10-12 10:11:20 error: [POST] /auth/verify-token >> StatusCode:: 404, Message:: Bad Request
+2023-10-12 10:11:24 error: [POST] /auth/verify-token >> StatusCode:: 404, Message:: Bad Request
+2023-10-12 11:31:47 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/home/phmahendra/code/webdev/kasirku/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/home/phmahendra/code/webdev/kasirku/server/node_modules/express/lib/router/index.js:521:19)
+    at AuthRoute.initializeRoutes (/home/phmahendra/code/webdev/kasirku/server/src/routes/auth.route.ts:27:17)
+    at new AuthRoute (/home/phmahendra/code/webdev/kasirku/server/src/routes/auth.route.ts:14:10)
+    at Object.<anonymous> (/home/phmahendra/code/webdev/kasirku/server/src/server.ts:8:22)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (/home/phmahendra/code/webdev/kasirku/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/phmahendra/code/webdev/kasirku/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-10-12 13:02:37 error: uncaughtException: Access denied for user 'root'@'localhost' (using password: NO)
+SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/home/phmahendra/code/webdev/kasirku/server/node_modules/sequelize/src/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/home/phmahendra/code/webdev/kasirku/server/node_modules/sequelize/src/dialects/abstract/connection-manager.js:332:24)
+    at async /home/phmahendra/code/webdev/kasirku/server/node_modules/sequelize/src/dialects/abstract/connection-manager.js:250:32
+2023-10-12 13:02:37 error: uncaughtException: Access denied for user 'root'@'localhost' (using password: NO)
+SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/home/phmahendra/code/webdev/kasirku/server/node_modules/sequelize/src/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/home/phmahendra/code/webdev/kasirku/server/node_modules/sequelize/src/dialects/abstract/connection-manager.js:332:24)
+    at async /home/phmahendra/code/webdev/kasirku/server/node_modules/sequelize/src/dialects/abstract/connection-manager.js:250:32
+2023-10-12 13:03:07 error: uncaughtException: Access denied for user 'root'@'localhost' (using password: NO)
+SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/home/phmahendra/code/webdev/kasirku/server/node_modules/sequelize/src/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/home/phmahendra/code/webdev/kasirku/server/node_modules/sequelize/src/dialects/abstract/connection-manager.js:332:24)
+    at async /home/phmahendra/code/webdev/kasirku/server/node_modules/sequelize/src/dialects/abstract/connection-manager.js:250:32
+2023-10-12 13:03:07 error: uncaughtException: Access denied for user 'root'@'localhost' (using password: NO)
+SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/home/phmahendra/code/webdev/kasirku/server/node_modules/sequelize/src/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/home/phmahendra/code/webdev/kasirku/server/node_modules/sequelize/src/dialects/abstract/connection-manager.js:332:24)
+    at async /home/phmahendra/code/webdev/kasirku/server/node_modules/sequelize/src/dialects/abstract/connection-manager.js:250:32
+2023-10-12 13:46:19 error: [POST] /auth/login >> StatusCode:: 409, Message:: Password not matching
+2023-10-12 13:57:50 error: [POST] /auth/login >> StatusCode:: 409, Message:: Password not matching
+2023-10-12 20:52:17 error: [POST] /auth/login >> StatusCode:: 409, Message:: This Username hindia@gmail.com was not found
