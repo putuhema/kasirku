@@ -1,6 +1,10 @@
-import express from "express";
+import { App } from "@/app";
+import { AuthRoute } from "@/routes/auth.route";
+import { UserRoute } from "@/routes/users.route";
+import { ValidateEnv } from "@/utils/validateEnv";
 
-const app = express();
-const PORT = 3000;
+ValidateEnv();
 
-app.listen(PORT, () => console.log(`server run on port:${3000}`));
+const app = new App([new AuthRoute(), new UserRoute()]);
+
+app.listen();
