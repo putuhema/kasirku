@@ -10,6 +10,7 @@ export class UserModel extends Model<User> implements User {
   public imgUrl: string;
   public role: string;
   public password: string;
+  public status: string;
 
   public readonly createdAt!: Date;
   public readonly updateAt!: Date;
@@ -47,6 +48,11 @@ export default function (sequelize: Sequelize): typeof UserModel {
         allowNull: false,
         type: DataTypes.STRING(45),
         defaultValue: "cashier",
+      },
+      status: {
+        allowNull: false,
+        type: DataTypes.STRING(45),
+        defaultValue: "active",
       },
       password: {
         allowNull: false,

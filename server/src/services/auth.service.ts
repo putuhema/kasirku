@@ -1,11 +1,13 @@
 import { DB } from "@/database";
 import { CreateUserDto } from "@/dtos/users.dto";
 import { HttpException } from "@/exceptions/HttpException";
-import { TokenData } from "@/interfaces/auth.interface";
 import { User } from "@/interfaces/users.interface";
 import { compare, hash } from "bcrypt";
 import Container, { Service } from "typedi";
 import { JwtService } from "./jwt.service";
+import { randomBytes } from "crypto";
+import sendEmail from "@/utils/email/sendEmail";
+import { JwtPayload } from "jsonwebtoken";
 
 type Role = "cashier" | "admin";
 
@@ -29,6 +31,8 @@ export class AuthService {
     const hashPassword = await hash(userData.password, 10);
     const createUserData: User = await DB.Users.create({
       ...userData,
+      status: "active",
+      imgUrl: "uploads/default.jpg",
       role: assignRole,
       password: hashPassword,
     });
@@ -44,25 +48,24 @@ export class AuthService {
     });
     if (!findUser)
       throw new HttpException(
-        409,
-        `This Username ${userData.username} was not found`
+        404,
+        `User with username @${userData.username} was not found`
       );
+
+    if (findUser.status !== "active") {
+      throw new HttpException(401, `This User is being deactivated.`);
+    }
 
     const isPasswordMatching: boolean = await compare(
       userData.password,
       findUser.password
     );
 
-    if (!isPasswordMatching)
-      throw new HttpException(409, "Password not matching");
+    if (!isPasswordMatching) throw new HttpException(409, "Wrong Password");
 
     const accessToken = this.jwt.generateToken({
       id: findUser.id,
       role: findUser.role,
-    });
-
-    const refreshToken = this.jwt.generateRefreshToken({
-      id: findUser.id,
     });
 
     return { accessToken, user: { id: findUser.id, role: findUser.role } };
@@ -74,5 +77,81 @@ export class AuthService {
     });
 
     return findUser;
+  }
+
+  public verifyToken(token: string): string | JwtPayload {
+    if (!token) {
+      throw new Error("Bad Request");
+    }
+
+    const tokenString = token.split(" ")[1];
+    let verifiedToken = this.jwt.verifyToken(tokenString);
+
+    if (!verifiedToken) {
+      throw new HttpException(401, "Unauthorize");
+    }
+
+    return verifiedToken;
+  }
+
+  public async requestResetPassword(email: string) {
+    console.log(email);
+    const findUser = await DB.Users.findOne({ where: { email: email } });
+    if (!findUser) throw new HttpException(401, "Email Not Exist");
+
+    let token = await DB.Token.findOne({ where: { userId: findUser.id } });
+    if (token) await token.destroy();
+
+    let resetToken = randomBytes(32).toString("hex");
+    const hashResetToken = await hash(resetToken, 10);
+
+    await DB.Token.create({
+      userId: findUser.id,
+      token: hashResetToken,
+    });
+
+    const link = `localhost:5173/reset-password?token=${resetToken}&id=${findUser.id}`;
+
+    sendEmail(
+      findUser.email,
+      "Password Reset Request",
+      {
+        name: findUser.name,
+        link: link,
+      },
+      "./template/reqResetPassword.handlebars"
+    );
+    return { link };
+  }
+
+  public async resetPassword(userId: number, token: string, password: string) {
+    const findToken = await DB.Token.findOne({ where: { userId: userId } });
+    console.log(findToken);
+    if (!findToken) {
+      throw new Error("Invalid or Expired password reset token");
+    }
+    const isValid = await compare(token, findToken.token);
+    if (!isValid) {
+      throw new Error("Invalid or Expired password reset token");
+    }
+    const hashPassword = await hash(password, 10);
+    await DB.Users.update(
+      {
+        password: hashPassword,
+      },
+      { where: { id: userId } }
+    );
+
+    const findUser = await DB.Users.findOne({ where: { id: userId } });
+    sendEmail(
+      findUser.email,
+      "Password Reset Successfully",
+      {
+        name: findUser.name,
+      },
+      "./template/resetPassword.handlebars"
+    );
+    await findToken.destroy();
+    return { message: "Password reset was successful" };
   }
 }

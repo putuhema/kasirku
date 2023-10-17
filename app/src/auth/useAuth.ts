@@ -14,7 +14,7 @@ async function getUser(user: User | null | undefined): Promise<User | null> {
 
   if (response.status !== 200)
     throw new ResponseError("Failed on get user request", response.request);
-  return await response.data;
+  return response.data;
 }
 
 export interface User {
@@ -25,11 +25,7 @@ export interface User {
   };
 }
 
-interface IUseUser {
-  user: User | null;
-}
-
-export function useUser(): IUseUser {
+export function useAuth(): User | null {
   const { data: user } = useQuery<User | null>(
     ["user"],
     async (): Promise<User | null> => getUser(user),
@@ -43,13 +39,10 @@ export function useUser(): IUseUser {
       },
     }
   );
-
   useEffect(() => {
     if (!user) userLocalStorage.removeUser();
     else userLocalStorage.saveUser(user);
   }, [user]);
 
-  return {
-    user: user ?? null,
-  };
+  return user ?? null;
 }

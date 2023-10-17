@@ -9,6 +9,8 @@ import {
 } from "@/config";
 import { logger } from "@utils/logger";
 import UserModel from "@/models/users.model";
+import TokenModel from "@/models/token.model";
+import ProductsModel from "@/models/products.model";
 
 const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
   dialect: "mysql",
@@ -34,8 +36,13 @@ const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
 
 sequelize.authenticate();
 
+TokenModel(sequelize).belongsTo(UserModel(sequelize));
+UserModel(sequelize).hasOne(TokenModel(sequelize));
+
 export const DB = {
   Users: UserModel(sequelize),
-  sequelize, // connection instance (RAW queries)
-  Sequelize, // library
+  Token: TokenModel(sequelize),
+  Products: ProductsModel(sequelize),
+  sequelize,
+  Sequelize,
 };

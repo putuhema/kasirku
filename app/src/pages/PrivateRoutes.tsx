@@ -1,9 +1,22 @@
-import { useUser } from "@/auth/useUser";
+import { useAuth } from "@/auth/useAuth";
 import { Navigate, Outlet } from "react-router";
+import Layout from "./Layout";
 
-const PrivateRoutes = () => {
-  const user = useUser();
-  return user.user ? <Outlet /> : <Navigate to="/" />;
+const PrivateRoutes = ({ nav = true }: { nav?: boolean }) => {
+  const user = useAuth();
+  return user ? (
+    <>
+      {nav ? (
+        <>
+          <Layout />
+        </>
+      ) : (
+        <Outlet />
+      )}
+    </>
+  ) : (
+    <Navigate to="/" />
+  );
 };
 
 export default PrivateRoutes;

@@ -8,6 +8,8 @@ export const allowedOrigins = [
   "http://localhost:5173",
 ];
 export const CREDENTIALS = process.env.CREDENTIALS === "true";
+export const { EMAIL_HOST, EMAIL_USERNAME, FROM_EMAIL, EMAIL_PASSWORD } =
+  process.env;
 export const {
   NODE_ENV,
   PORT,

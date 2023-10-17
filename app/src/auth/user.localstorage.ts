@@ -1,4 +1,4 @@
-import { User } from "./useUser";
+import { User } from "./useAuth";
 
 const USER_LOCAL_STORAGE_KEY = "USER_AUTH";
 

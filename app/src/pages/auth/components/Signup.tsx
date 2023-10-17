@@ -8,7 +8,7 @@ import {
   HStack,
   Input,
   InputGroup,
-  InputLeftElement,
+  InputLeftAddon,
   InputRightElement,
   VStack,
 } from "@chakra-ui/react";
@@ -17,19 +17,24 @@ import { EyeIcon, EyeOff } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useMutation } from "@tanstack/react-query";
+import { useNavigate } from "react-router-dom";
 
 type User = {
   name: string;
   username: string;
   email: string;
   phone: string;
-  imgUrl: string;
   password: string;
 };
 
 const Signup = () => {
+  const navigate = useNavigate();
+
   const { mutate } = useMutation({
     mutationFn: async (newuser: User) => services.post("/auth/signup", newuser),
+    onSuccess: () => {
+      return navigate("/?form=sign-in");
+    },
   });
 
   const [show, setShow] = useState(false);
@@ -67,7 +72,6 @@ const Signup = () => {
   const onSubmit = (values: SignUpForm) => {
     mutate({
       ...values,
-      imgUrl: "github.com/putuhema.png",
     });
   };
   return (
@@ -82,10 +86,8 @@ const Signup = () => {
           <FormControl isInvalid={!!errors["username"]}>
             <FormLabel htmlFor="username">Username</FormLabel>
             <InputGroup>
-              <InputLeftElement>
-                <Button>@</Button>
-              </InputLeftElement>
-              <Input ml="4px" {...register("username")} />
+              <InputLeftAddon children="@" />
+              <Input {...register("username")} />
             </InputGroup>
             <FormErrorMessage>{errors["username"]?.message}</FormErrorMessage>
           </FormControl>
@@ -97,7 +99,10 @@ const Signup = () => {
         </FormControl>
         <FormControl isInvalid={!!errors["phone"]}>
           <FormLabel htmlFor="phone">Phone</FormLabel>
-          <Input {...register("phone")} />
+          <InputGroup>
+            <InputLeftAddon children="+62" />
+            <Input {...register("phone")} />
+          </InputGroup>
           <FormErrorMessage>{errors["phone"]?.message}</FormErrorMessage>
         </FormControl>
         <FormControl isInvalid={!!errors["password"]}>
@@ -140,7 +145,7 @@ const Signup = () => {
           </InputGroup>
           <FormErrorMessage>{errors["confirm"]?.message}</FormErrorMessage>
         </FormControl>
-        <Button w="full" rounded="full" type="submit">
+        <Button variant="gradient" type="submit">
           Sign Up
         </Button>
       </VStack>

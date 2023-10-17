@@ -6,14 +6,14 @@
     "auditLog": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/.a2f5d25b2687f03523dfb812111a0f2881603594-audit.json",
     "files": [
         {
-            "date": 1697013912181,
-            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-11.log",
-            "hash": "634767e9a21999af8845bf1afe785cf60c0e43659f383c4cdad68f2ef005b1d6"
+            "date": 1697439676839,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-16.log",
+            "hash": "47443e13afb7497331f2e10f6d82f1d44df07408f82b1d856a962fb0934a1731"
         },
         {
-            "date": 1697062818862,
-            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-12.log",
-            "hash": "3cbfec6530558d8b5508be6013c0b28dcc50e9f13b72a850fdb73dac01961974"
+            "date": 1697472055186,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-17.log",
+            "hash": "dee7885299ff5944a85adc2ba3c4a77f952b7f91b187c4ee04f6b3829e8f2724"
         }
     ],
     "hashType": "sha256"

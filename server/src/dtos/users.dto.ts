@@ -25,11 +25,14 @@ export class CreateUserDto {
 
   @IsNotEmpty()
   @IsString()
-  public imageUrl: string;
+  public imgUrl: string;
 
   @IsNotEmpty()
   @IsString()
   public role: string;
+  @IsNotEmpty()
+  @IsString()
+  public status: string;
 
   @IsNotEmpty()
   @IsString()

@@ -9,22 +9,11 @@ import {
 import { User } from "@/interfaces/users.interface";
 import { AuthService } from "@/services/auth.service";
 import { NextFunction, Request, Response } from "express";
-import { sign, verify } from "jsonwebtoken";
+import { verify } from "jsonwebtoken";
 import { Container } from "typedi";
 
 export class AuthController {
   public auth = Container.get(AuthService);
-
-  public refreshToken = async (
-    req: Request,
-    res: Response,
-    next: NextFunction
-  ) => {
-    try {
-    } catch (error) {
-      next(error);
-    }
-  };
 
   public signUp = async (req: Request, res: Response, next: NextFunction) => {
     try {
@@ -57,19 +46,9 @@ export class AuthController {
   ) => {
     try {
       const token = req.headers.authorization;
+      const verifiedToken = this.auth.verifyToken(token);
 
-      if (!token) {
-        throw new Error("Bad Request");
-      }
-
-      const tokenString = token.split(" ")[1];
-      let verifiedToken = verify(tokenString, SECRET_KEY);
-
-      if (!verifiedToken) {
-        throw new HttpException(401, "Unauthorize");
-      }
-
-      res.status(200).json(token);
+      res.status(200).json(verifiedToken);
     } catch (error) {
       next(error);
     }
@@ -86,6 +65,39 @@ export class AuthController {
 
       res.setHeader("Set-Cookie", ["Authorization=; Max-age=0"]);
       res.status(200).json({ data: logOutUserData, message: "logout" });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public resetPasswordRequest = async (
+    req: RequestWithUser,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const { email } = req.body;
+      console.log(email);
+      const service = await this.auth.requestResetPassword(email);
+      res.json(service);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public resetPassword = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const { token, userId, password } = req.body;
+      const service = await this.auth.resetPassword(
+        userId as number,
+        token,
+        password
+      );
+      res.status(200).json(service);
     } catch (error) {
       next(error);
     }
