@@ -140,7 +140,9 @@ export class UserService {
     const findUser: User = await DB.Users.findByPk(id);
     if (!findUser) throw new HttpException(409, "User does't exist");
 
-    await deleteImage(findUser.imgUrl);
+    if (findUser.imgUrl !== "uploads/default.jpg") {
+      await deleteImage(findUser.imgUrl);
+    }
     await DB.Users.update(
       {
         imgUrl,

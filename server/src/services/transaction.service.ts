@@ -5,16 +5,6 @@ import { Transaction } from "@/interfaces/transaction.interface";
 import { Op } from "sequelize";
 import { Service } from "typedi";
 
-interface OriginalData {
-  transactionDate: string;
-  totalTransaction: number;
-}
-
-interface TransformedData {
-  id: string;
-  data: Array<{ x: string; y: number }>;
-}
-
 @Service()
 export class TransactionService {
   public async getAllTransaction(): Promise<Transaction[]> {
@@ -26,6 +16,34 @@ export class TransactionService {
     });
 
     return findAllTransaction;
+  }
+
+  public async getTransaction(transactionId: number): Promise<Transaction> {
+    const findTransaction: Transaction = await DB.Transaction.findByPk(
+      transactionId,
+      {
+        include: [
+          {
+            model: DB.TrasactionDetail,
+            include: [
+              {
+                model: DB.Products,
+                attributes: ["name", "img_url", "price", "stock"],
+                include: [
+                  {
+                    model: DB.Category,
+                    attributes: ["name", "id"],
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      }
+    );
+    if (!findTransaction) throw new HttpException(409, "No Transaction");
+
+    return findTransaction;
   }
 
   public async createTransaction(
@@ -60,11 +78,10 @@ export class TransactionService {
     return findTransaction;
   }
 
-  public async salesAggregateToday() {
-    const today = new Date();
-    const startOfDay = new Date(today);
+  public async salesAggregateToday(date: Date) {
+    const startOfDay = new Date(date);
     startOfDay.setHours(0, 0, 0, 0);
-    const endOfDay = new Date(today);
+    const endOfDay = new Date(date);
     endOfDay.setHours(23, 59, 59, 999);
 
     const todaySales = await DB.Transaction.findAll({

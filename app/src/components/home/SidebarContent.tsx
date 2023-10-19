@@ -57,7 +57,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
     >
       <Flex my="4" direction="column" h="full">
         <Flex direction="column">
-          <VStack w="full">
+          <VStack w="full" mb="4">
             <Image
               w={{ base: "40px", lg: "40px" }}
               color="red.400"
@@ -66,10 +66,9 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             <Text
               opacity={{ base: "0", lg: "100%" }}
               fontSize={{ base: "md", lg: "2xl" }}
-              fontFamily="monospace"
               fontWeight="bold"
             >
-              meowfood.io
+              Kasirku
             </Text>
           </VStack>
           <CloseButton

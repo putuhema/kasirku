@@ -14,6 +14,7 @@ export class TrasactionRoute implements Routes {
 
   private initializeRoutes() {
     this.router.get(`${this.path}`, this.transaction.getAllTransaction);
+    this.router.get(`${this.path}/:id(\\d+)`, this.transaction.getTransaction);
     this.router.get(`${this.path}/today`, this.transaction.getTodayTransaction);
     this.router.get(`${this.path}/sales`, this.transaction.getSalesPerDay);
     this.router.post(`${this.path}`, this.transaction.createTrasaction);

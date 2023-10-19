@@ -6,7 +6,6 @@ import router from "./pages/routes.tsx";
 import { QueryClient } from "@tanstack/query-core";
 import { Provider } from "react-redux";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { buttonTheme, inputTheme, tabsTheme } from "@/theme";
 import { store } from "./services/redux/store.ts";
 
@@ -28,7 +27,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <RouterProvider router={router} />
         </React.StrictMode>
       </ChakraProvider>
-      <ReactQueryDevtools />
     </QueryClientProvider>
   </Provider>
 );
