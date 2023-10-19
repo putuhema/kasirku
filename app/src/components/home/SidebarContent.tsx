@@ -23,6 +23,7 @@ import {
   Settings,
 } from "lucide-react";
 import { useUser } from "@/hooks/useUser";
+import { useSignOut } from "@/auth/useSignOut";
 
 interface SidebarProps extends BoxProps {
   onClose: () => void;
@@ -36,20 +37,20 @@ const LinkItems: Array<LinkItemProps> = [
   {
     name: "Menu",
     icon: MenuIcon,
-    route: "/home/menu",
+    route: "/home",
   },
   { name: "OrderList", icon: FiCompass, route: "/home/order-list" },
 ];
 const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
+  const signout = useSignOut();
   const { user } = useUser();
   const { pathname } = useLocation();
   return (
     <Box
-      transition="3s ease"
       bg={useColorModeValue("white", "gray.900")}
       borderRight="1px"
       borderRightColor={useColorModeValue("gray.200", "gray.700")}
-      w={{ base: "full", md: 80 }}
+      w={{ base: "full", md: "60px", lg: "200px" }}
       pos="fixed"
       h="full"
       {...rest}
@@ -57,8 +58,17 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
       <Flex my="4" direction="column" h="full">
         <Flex direction="column">
           <VStack w="full">
-            <Image w="50px" color="red.400" src={logo} />
-            <Text fontSize="2xl" fontFamily="monospace" fontWeight="bold">
+            <Image
+              w={{ base: "40px", lg: "40px" }}
+              color="red.400"
+              src={logo}
+            />
+            <Text
+              opacity={{ base: "0", lg: "100%" }}
+              fontSize={{ base: "md", lg: "2xl" }}
+              fontFamily="monospace"
+              fontWeight="bold"
+            >
               meowfood.io
             </Text>
           </VStack>
@@ -101,9 +111,15 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
           )}
         </Flex>
         <Spacer />
-        <Flex ml="6" mb="10" color="blackAlpha.600">
+        <Flex
+          cursor="pointer"
+          onClick={() => signout()}
+          ml="6"
+          mb="10"
+          color="blackAlpha.600"
+        >
           <LogOut size={20} />
-          <Text>Sign out</Text>
+          <Text display={{ base: "none", lg: "block" }}>Sign out</Text>
         </Flex>
       </Flex>
     </Box>

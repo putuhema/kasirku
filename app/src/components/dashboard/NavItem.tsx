@@ -1,4 +1,10 @@
-import { FlexProps, Flex, Icon, Box } from "@chakra-ui/react";
+import {
+  FlexProps,
+  Flex,
+  Icon,
+  Box,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import { IconType } from "react-icons";
 import { Link } from "react-router-dom";
 
@@ -17,8 +23,10 @@ const NavItem = ({ route, active, icon, children, ...rest }: NavItemProps) => {
           align="center"
           p="2"
           mx="4"
-          bg={active ? "teal.400" : "white"}
-          color={active ? "white" : "black"}
+          bg={useColorModeValue(
+            active ? "teal.400" : "white",
+            active ? "teal.400" : "gray.900"
+          )}
           borderRadius="lg"
           role="group"
           cursor="pointer"

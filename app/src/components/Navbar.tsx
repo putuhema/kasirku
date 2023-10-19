@@ -8,8 +8,15 @@ import {
 } from "@chakra-ui/react";
 import Profile from "./Profile";
 import { Bell, Search } from "lucide-react";
+import {
+  searchSelector,
+  setSearchTerm,
+} from "@/services/redux/features/searchSlice";
+import { useAppDispatch, useAppSelector } from "@/services/redux/hook";
 
 const Navbar = () => {
+  const { term } = useAppSelector(searchSelector);
+  const dispatch = useAppDispatch();
   return (
     <Box bg={useColorModeValue("white", "gray.900")} px={4}>
       <Flex
@@ -25,7 +32,12 @@ const Navbar = () => {
             <InputLeftElement>
               <Search />
             </InputLeftElement>
-            <Input placeholder="search cat foods" bg="white" />
+            <Input
+              value={term}
+              onChange={(e) => dispatch(setSearchTerm(e.target.value))}
+              placeholder="search cat foods"
+              bg="white"
+            />
           </InputGroup>
         </Box>
         <Flex gap={3} alignItems={"center"}>

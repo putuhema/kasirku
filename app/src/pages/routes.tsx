@@ -6,13 +6,16 @@ import ForgotPassword from "@/components/ForgotPassword";
 import ResetPassword from "@/components/ResetPassword";
 import Settings from "./users/Settings";
 import Dashboard from "./dashboard/Dashboard";
-import Transaction from "./dashboard/Transaction";
 import Layout from "./dashboard/Layout";
 import Report from "./dashboard/Report";
 import Users from "./dashboard/users/Users";
 import EditUserPage from "./dashboard/EditUserPage";
 import Admin from "./dashboard/users/Admin";
-import Products from "./dashboard/Products";
+import Products from "./dashboard/products/Products";
+import OrderList from "./home/OrderList";
+import Trasactions from "./dashboard/transactions/Trasactions";
+import EditProductPage from "./dashboard/EditProductPage";
+import TransactionDetail from "./dashboard/transactions/TransactionDetail";
 
 const router = createBrowserRouter([
   {
@@ -36,8 +39,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "menu",
-        element: <Home />,
+        path: "order-list",
+        element: <OrderList />,
       },
       {
         path: "settings",
@@ -62,12 +65,22 @@ const router = createBrowserRouter([
             element: <Products />,
           },
           {
+            path: "products/edit/:productId",
+            element: <EditProductPage />,
+          },
+          {
             path: "transactions",
-            element: <Transaction />,
+            element: <Trasactions />,
           },
           {
             path: "reports",
             element: <Report />,
+            children: [
+              {
+                path: "detail/:id",
+                element: <TransactionDetail />,
+              },
+            ],
           },
           {
             path: "users/cashier",

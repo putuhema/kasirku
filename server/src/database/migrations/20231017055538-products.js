@@ -22,11 +22,24 @@ module.exports = {
         allowNull: false,
         type: DataTypes.STRING(255),
       },
+      status: {
+        allowNull: false,
+        type: DataTypes.STRING(45),
+      },
       price: {
         allowNull: false,
         type: DataTypes.INTEGER,
       },
+      status: {
+        type: DataTypes.ENUM,
+        values: ["active", "disabled", "deleted"],
+        defaultValue: "active",
+      },
       stock: {
+        allowNull: false,
+        type: DataTypes.INTEGER,
+      },
+      categoryId: {
         allowNull: false,
         type: DataTypes.INTEGER,
       },

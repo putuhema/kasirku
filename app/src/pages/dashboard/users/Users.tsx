@@ -1,10 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
 import { columns } from "./columns";
-import { DataTable } from "./data-table";
+import { DataTable } from "../table/data-table";
 import services from "@/services";
-import { Button, Text, useDisclosure } from "@chakra-ui/react";
+import { Text, useDisclosure } from "@chakra-ui/react";
 import DrawerFormUser from "@/components/DrawerFormUser";
-import { PlusIcon } from "lucide-react";
 
 const Users = () => {
   const { data: users, isLoading } = useQuery({
@@ -21,10 +20,13 @@ const Users = () => {
         <Text>Loading ....</Text>
       ) : (
         <>
-          <Button leftIcon={<PlusIcon />} colorScheme="teal" onClick={onOpen}>
-            Create user
-          </Button>
-          <DataTable columns={columns} data={users} />
+          <DataTable
+            tableName="users"
+            onOpen={onOpen}
+            filter="name"
+            columns={columns}
+            data={users}
+          />
           <DrawerFormUser isOpen={isOpen} onClose={onClose} />
         </>
       )}

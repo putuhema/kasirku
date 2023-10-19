@@ -192,11 +192,11 @@ const UserForm = ({ userId }: { userId?: number }) => {
           <FormLabel htmlFor="phone">Phone</FormLabel>
           <InputGroup>
             <InputLeftAddon children="+62" />
-            <Input {...register("phone")} />
+            <Input {...register("phone")} type="number" />
           </InputGroup>
           <FormErrorMessage>{errors["phone"]?.message}</FormErrorMessage>
         </FormControl>
-        <FormControl isInvalid={!!errors["password"]}>
+        <FormControl hidden={!!userId} isInvalid={!!errors["password"]}>
           <FormLabel htmlFor="password">Password</FormLabel>
           <InputGroup>
             <Input
@@ -216,7 +216,7 @@ const UserForm = ({ userId }: { userId?: number }) => {
           </InputGroup>
           <FormErrorMessage>{errors["password"]?.message}</FormErrorMessage>
         </FormControl>
-        <FormControl isInvalid={!!errors["confirm"]}>
+        <FormControl hidden={!!userId} isInvalid={!!errors["confirm"]}>
           <FormLabel htmlFor="confirm">Confirm Password</FormLabel>
           <InputGroup>
             <Input
