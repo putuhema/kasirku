@@ -1,8 +1,10 @@
 import { Point, ResponsiveLine } from "@nivo/line";
+import { useNavigate } from "react-router-dom";
 
 interface ChartData {
   id: string;
   data: {
+    id: number;
     x: string;
     y: number;
   }[];
@@ -13,7 +15,10 @@ interface ChartComponentProps {
 }
 
 const Charts = ({ data }: ChartComponentProps) => {
-  const handleNavigateToDetails = (e: Point) => {};
+  const navigate = useNavigate();
+  const handleNavigateToDetails = (e: Point) => {
+    navigate(`/dashboard/transaction-detail/${e.data.id}`);
+  };
   return (
     <ResponsiveLine
       data={[data]}
@@ -52,7 +57,7 @@ const Charts = ({ data }: ChartComponentProps) => {
       pointBorderColor={{ from: "serieColor" }}
       pointLabelYOffset={-12}
       useMesh={true}
-      onClick={(e) => console.log(e)}
+      onClick={handleNavigateToDetails}
       legends={[
         {
           anchor: "bottom-right",

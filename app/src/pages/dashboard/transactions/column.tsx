@@ -1,6 +1,7 @@
 import DeleteTransaction from "@/components/DeleteTransaction";
 import { Button, Menu, MenuButton, MenuList, Text } from "@chakra-ui/react";
 import { ColumnDef } from "@tanstack/react-table";
+import { Link } from "react-router-dom";
 
 export type Trasaction = {
   id: number;
@@ -26,7 +27,11 @@ export const columns: ColumnDef<Trasaction>[] = [
     header: "Orders",
     cell: ({ row }) => {
       const orders = row.original.TransactionDetailModels;
-      return <Text>{orders.length} orders</Text>;
+      return (
+        <Link to={`/dashboard/transaction-detail/${row.original.id}`}>
+          <Text>{orders.length} orders</Text>
+        </Link>
+      );
     },
   },
   {

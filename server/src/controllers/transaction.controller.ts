@@ -25,13 +25,32 @@ export class TransactionController {
     }
   };
 
+  public getTransaction = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const transactionId = Number(req.params.id);
+      const findTransaction: Transaction =
+        await this.transaction.getTransaction(transactionId);
+      res.status(200).json({
+        data: findTransaction,
+        message: "findAllTrasaction",
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+
   public getTodayTransaction = async (
     req: Request,
     res: Response,
     next: NextFunction
   ) => {
     try {
-      const findTransactions = await this.transaction.salesAggregateToday();
+      const date = new Date(req.query.date as string);
+      const findTransactions = await this.transaction.salesAggregateToday(date);
       res.status(200).json({
         data: findTransactions,
         message: "salesToday",

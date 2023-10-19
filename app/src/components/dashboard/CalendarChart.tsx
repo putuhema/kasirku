@@ -1,4 +1,5 @@
-import { ResponsiveCalendar } from "@nivo/calendar";
+import { Datum, ResponsiveCalendar } from "@nivo/calendar";
+import { useNavigate } from "react-router-dom";
 interface Data {
   value: number;
   day: string;
@@ -7,6 +8,12 @@ interface CalendarChartProps {
   data: Data[];
 }
 const CalendarChart = ({ data }: CalendarChartProps) => {
+  const navigate = useNavigate();
+  const handleTransactionOnDate = (
+    d: Datum | Omit<Datum, "data" | "value">
+  ) => {
+    navigate(`/dashboard/reports?date=${d.day}`);
+  };
   return (
     <ResponsiveCalendar
       data={data}
@@ -19,7 +26,7 @@ const CalendarChart = ({ data }: CalendarChartProps) => {
       monthBorderColor="#ffffff"
       dayBorderWidth={2}
       dayBorderColor="#ffffff"
-      onClick={(e) => console.log(e)}
+      onClick={handleTransactionOnDate}
       legends={[
         {
           anchor: "bottom-right",

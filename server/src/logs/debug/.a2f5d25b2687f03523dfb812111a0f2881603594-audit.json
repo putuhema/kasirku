@@ -1,35 +1,50 @@
 {
-  "keep": {
-    "days": false,
-    "amount": 30
-  },
-  "auditLog": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/.a2f5d25b2687f03523dfb812111a0f2881603594-audit.json",
-  "files": [
-    {
-      "date": 1697439676839,
-      "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-16.log",
-      "hash": "47443e13afb7497331f2e10f6d82f1d44df07408f82b1d856a962fb0934a1731"
+    "keep": {
+        "days": false,
+        "amount": 30
     },
-    {
-      "date": 1697472055186,
-      "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-17.log",
-      "hash": "dee7885299ff5944a85adc2ba3c4a77f952b7f91b187c4ee04f6b3829e8f2724"
-    },
-    {
-      "date": 1697558459532,
-      "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-18.log",
-      "hash": "34bc3cbfd64c00db8c87edb56f7fa7ccee2aaa7fa43a1ee12f7615d8fdaf6844"
-    },
-    {
-      "date": 1697644838564,
-      "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-19.log",
-      "hash": "4c4a72bad4f8fa626057051f2c644473877cea82d19392b334b80f79e5b4a55d"
-    },
-    {
-      "date": 1697778896043,
-      "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-20.log",
-      "hash": "564d466583b8428a751077edc814035100c15e980444a1a70606b51a46181371"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/.a2f5d25b2687f03523dfb812111a0f2881603594-audit.json",
+    "files": [
+        {
+            "date": 1697439676839,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-16.log",
+            "hash": "47443e13afb7497331f2e10f6d82f1d44df07408f82b1d856a962fb0934a1731"
+        },
+        {
+            "date": 1697472055186,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-17.log",
+            "hash": "dee7885299ff5944a85adc2ba3c4a77f952b7f91b187c4ee04f6b3829e8f2724"
+        },
+        {
+            "date": 1697558459532,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-18.log",
+            "hash": "34bc3cbfd64c00db8c87edb56f7fa7ccee2aaa7fa43a1ee12f7615d8fdaf6844"
+        },
+        {
+            "date": 1697644838564,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-19.log",
+            "hash": "4c4a72bad4f8fa626057051f2c644473877cea82d19392b334b80f79e5b4a55d"
+        },
+        {
+            "date": 1697778896043,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-20.log",
+            "hash": "564d466583b8428a751077edc814035100c15e980444a1a70606b51a46181371"
+        },
+        {
+            "date": 1698044466258,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-23.log",
+            "hash": "6056b16431adfc163b53d5d4bfea739d2091015203abf020fae4a80ebab499df"
+        },
+        {
+            "date": 1697880002562,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-21.log",
+            "hash": "971c1d589f619fa59734930007b94fde0dec8c118b9522df103366159fe6da9c"
+        },
+        {
+            "date": 1697966462174,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/debug/2023-10-22.log",
+            "hash": "630337ba61fac7e7fa05f8afd41c8ab80a5996dce1ec220f5b06bda20456b5a0"
+        }
+    ],
+    "hashType": "sha256"
 }
