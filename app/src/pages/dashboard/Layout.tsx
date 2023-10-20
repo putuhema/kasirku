@@ -36,7 +36,7 @@ const Layout = () => {
         <MobileNav onOpen={onOpen} />
         <Box
           bg={useColorModeValue("white", "gray.900")}
-          ml={{ base: 0, md: 60 }}
+          ml={{ base: 0, md: "170px" }}
           p="4"
         >
           <Outlet />

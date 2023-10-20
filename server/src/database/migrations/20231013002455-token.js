@@ -1,7 +1,7 @@
 'use strict';
 
 /** @type {import('sequelize-cli').Migration} */
-const tableName = "token"
+const tableName = "tokens"
 module.exports = {
   async up(queryInterface, { DataTypes }) {
     await queryInterface.createTable(tableName, {

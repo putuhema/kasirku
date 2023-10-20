@@ -79,7 +79,7 @@ export const editSchema = z.object({
 
 export type EditForm = z.infer<typeof editSchema>;
 
-const MAX_FILE_SIZE = 1000000;
+const MAX_FILE_SIZE = 5000000;
 const ACCEPTED_IMAGE_TYPES = [
   "image/jpg",
   "image/jpeg",
@@ -113,3 +113,43 @@ export const pwdSchema = z
   });
 
 export type PwdForm = z.infer<typeof pwdSchema>;
+
+const MAX_PRODUCT_IMAGE_SIZE = 5000000;
+export const productSchema = z.object({
+  name: z.string().min(2, "product name is empty"),
+  price: z.number().min(2, "product price is empty"),
+  stock: z.number().min(1, "product stock is empty"),
+  categoryId: z.number().min(1, "category is empty"),
+  description: z.string().min(2, "product description is empty"),
+  image: z
+    .any()
+    .refine((file) => {
+      return file?.length > 0;
+    }, "Please pick an image")
+    .refine((file) => {
+      return file[0]?.size <= MAX_PRODUCT_IMAGE_SIZE;
+    }, "Max image size is 1MB.")
+    .refine(
+      (file) => ACCEPTED_IMAGE_TYPES.includes(file[0]?.type),
+      "Only .jpg, .png and .gif formats are supported"
+    ),
+});
+
+export type Product = z.infer<typeof productSchema>;
+
+export const editProductSchema = z.object({
+  name: z.string().min(2, "product name is empty"),
+  price: z.number().min(2, "product price is empty"),
+  status: z.string().optional(),
+  stock: z.number().min(1, "product stock is empty"),
+  categoryId: z.number().min(1, "category is empty"),
+  description: z.string().min(2, "product description is empty"),
+});
+
+export type EditProduct = z.infer<typeof editProductSchema>;
+
+export const categorySchema = z.object({
+  category: z.string().min(3, "Category is empty."),
+});
+
+export type CategoryForm = z.infer<typeof categorySchema>;

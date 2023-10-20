@@ -11,6 +11,9 @@ import { logger } from "@utils/logger";
 import UserModel from "@/models/users.model";
 import TokenModel from "@/models/token.model";
 import ProductsModel from "@/models/products.model";
+import TransactionModel from "@/models/transaction.model";
+import CategoryModel from "@/models/category.model";
+import TransactionDetailModel from "@/models/transactionDetail";
 
 const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
   dialect: "mysql",
@@ -36,13 +39,13 @@ const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
 
 sequelize.authenticate();
 
-TokenModel(sequelize).belongsTo(UserModel(sequelize));
-UserModel(sequelize).hasOne(TokenModel(sequelize));
-
 export const DB = {
   Users: UserModel(sequelize),
   Token: TokenModel(sequelize),
   Products: ProductsModel(sequelize),
+  Category: CategoryModel(sequelize),
+  Transaction: TransactionModel(sequelize),
+  TrasactionDetail: TransactionDetailModel(sequelize),
   sequelize,
   Sequelize,
 };

@@ -11,7 +11,7 @@ import { ArrowUpDown, UserCog } from "lucide-react";
 import { ColumnDef } from "@tanstack/react-table";
 import DeleteUser from "@/components/DeleteUser";
 import { Link } from "react-router-dom";
-import DisableUser from "@/components/DisableUser";
+import DisableData from "@/components/DisableData";
 
 export type User = {
   id: number;
@@ -27,6 +27,22 @@ export const columns: ColumnDef<User>[] = [
   {
     accessorKey: "id",
     header: "Id",
+  },
+  {
+    accessorKey: "status",
+    header: "Status",
+    cell: ({ row }) => {
+      const status: string = row.getValue("status");
+      return (
+        <Badge
+          rounded="full"
+          px="4"
+          colorScheme={status === "active" ? "teal" : "red"}
+        >
+          {status}
+        </Badge>
+      );
+    },
   },
   {
     accessorKey: "imgUrl",
@@ -59,22 +75,7 @@ export const columns: ColumnDef<User>[] = [
       );
     },
   },
-  {
-    accessorKey: "status",
-    header: "Status",
-    cell: ({ row }) => {
-      const status: string = row.getValue("status");
-      return (
-        <Badge
-          rounded="full"
-          px="4"
-          colorScheme={status === "active" ? "teal" : "red"}
-        >
-          {status}
-        </Badge>
-      );
-    },
-  },
+
   {
     accessorKey: "name",
     header: ({ column }) => {
@@ -124,7 +125,13 @@ export const columns: ColumnDef<User>[] = [
               </MenuItem>
             </Link>
 
-            <DisableUser id={user.id} />
+            <DisableData
+              state={user.status === "active"}
+              url={`/users/status/${user.id}`}
+              invalidate="users"
+              toastTitle="User Status Change"
+              toastDescription="Successfully change user status"
+            />
             <MenuDivider />
             <DeleteUser id={user.id} />
           </MenuList>
