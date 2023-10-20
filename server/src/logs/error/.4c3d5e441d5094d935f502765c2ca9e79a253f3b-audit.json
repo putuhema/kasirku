@@ -14,6 +14,11 @@
             "date": 1697472055187,
             "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/error/2023-10-17.log",
             "hash": "a106a0cfd0d4ba183bab07b4a2c1edfa7325af6a05245736f19b060466c4e0a7"
+        },
+        {
+            "date": 1697782111138,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/error/2023-10-20.log",
+            "hash": "0a5a2b1e08bac4754f0c2e8eab132bc07154bde2083c2717487eab645c9d11de"
         }
     ],
     "hashType": "sha256"
