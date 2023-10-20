@@ -43,7 +43,7 @@ export class UserController {
         phone,
         password,
         username,
-        imgUrl: "",
+        imgUrl: "uploads/default.jpg",
         status: "active",
       });
 

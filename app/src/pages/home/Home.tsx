@@ -1,80 +1,249 @@
 import Navbar from "@/components/Navbar";
-import { Flex } from "@chakra-ui/layout";
+import Product from "@/components/home/Product";
+import { Flex, Grid } from "@chakra-ui/layout";
 import {
   Button,
-  VStack,
-  Box,
   Stack,
-  HStack,
   Text,
-  Input,
-  Divider,
-  FormControl,
-  Image,
-  Spacer,
+  useDisclosure,
+  HStack,
+  Center,
+  Skeleton,
+  Select,
+  Tag,
+  TagLabel,
+  TagCloseButton,
 } from "@chakra-ui/react";
-import { Minus, Plus } from "lucide-react";
-import { IoFastFood } from "react-icons/io5";
+import {
+  AiOutlineSortAscending,
+  AiOutlineSortDescending,
+} from "react-icons/ai";
+import {
+  TbSortAscendingNumbers,
+  TbSortDescendingNumbers,
+} from "react-icons/tb";
+import { useQuery } from "@tanstack/react-query";
+import services from "@/services";
+import { Product as ProductData } from "@/services/redux/features/cartSlice";
+import Cart from "@/components/home/Cart";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useNavigate, useSearchParams } from "react-router-dom";
+import { useEffect, useState } from "react";
+import FilterModal from "@/components/home/FilterModal";
+import { useAppSelector } from "@/services/redux/hook";
+import { searchSelector } from "@/services/redux/features/searchSlice";
+import { useDebounce } from "use-debounce";
+
+type CategoryRes = {
+  id: number;
+  name: string;
+};
 
 const Home = () => {
+  const [searchParams, setSearchParams] = useSearchParams({ page: "1" });
+  const currentPage = Number(searchParams.get("page"));
+  const navigate = useNavigate();
+  const { isOpen, onClose } = useDisclosure();
+  const [category, setCategory] = useState("");
+  const [sort, setSort] = useState({
+    name: "ASC",
+    price: "ASC",
+  });
+
+  const { term: searchTerm } = useAppSelector(searchSelector);
+  const [debounceSearchTerm] = useDebounce(searchTerm, 500);
+
+  const { data: products, isLoading } = useQuery({
+    queryKey: [
+      "products",
+      currentPage,
+      category,
+      sort.name,
+      sort.price,
+      debounceSearchTerm,
+    ],
+    queryFn: async () => {
+      const res = await services.get(`/products/page/${currentPage}`, {
+        params: {
+          category: category,
+          name: sort.name,
+          price: sort.price,
+          search: debounceSearchTerm,
+        },
+      });
+      return res.data.data as ProductData[];
+    },
+    enabled: Boolean(currentPage) || Boolean(category),
+  });
+
+  const { data: categoryData, isLoading: categoryLoading } = useQuery<
+    CategoryRes[]
+  >({
+    queryKey: ["category"],
+    queryFn: async () => {
+      const res = await services.get("/category");
+      return res.data.data;
+    },
+  });
+
+  useEffect(() => {
+    if (currentPage < 1) {
+      return navigate("/home?page=1");
+    }
+  }, [currentPage, navigate]);
+
+  const currentCategory = categoryData?.filter(
+    (c) => c.id === Number(category)
+  )[0];
   return (
-    <Flex w="full" h="100vh">
-      <Flex direction="column" flex={1}>
+    <Flex w="full" h="100vh" zIndex={3}>
+      <FilterModal isOpen={isOpen} onClose={onClose} />
+      <Flex direction="column" flex={1} mr={{ base: "20px", lg: "350px" }}>
         <Navbar />
-        <VStack>
-          <Text>Choose Category</Text>
-          <Box border="1px" rounded="lg" boxShadow="md" p="2" minW="100">
-            <VStack>
-              <Box fontSize="4xl">
-                <IoFastFood />
-              </Box>
-              <Text>Food</Text>
-            </VStack>
-          </Box>
-        </VStack>
-      </Flex>
-      <Flex align="start" p="4" boxShadow="md" w="450px" bg="white">
-        <Stack w="full">
-          <Flex w="full" align="center">
-            <Text fontWeight="bold" fontSize="xl">
-              Order details
-            </Text>
-            <Spacer />
-            <Text color="blackAlpha.600">#442</Text>
-          </Flex>
-          <Text>Customer Information</Text>
-          <form>
-            <FormControl>
-              <Input placeholder="Customer Name" />
-            </FormControl>
-          </form>
-          <Divider my="2" />
-          <Text>Order Details</Text>
-          <Box>
+        <Stack p="4">
+          <Flex justify="space-between" align="center">
             <HStack>
-              <Image src="" w="100px" h="100px" rounded="md" />
-              <Stack w="full">
-                <Text>Crispy Dory Sambal Matah</Text>
-                <Flex justify="space-between" w="full">
-                  <HStack maxW="100px">
-                    <Button>
-                      <Minus />
-                    </Button>
-                    <Input type="text" />
-                    <Button>
-                      <Plus />
-                    </Button>
-                  </HStack>
-                  <Text>150K</Text>
-                </Flex>
-              </Stack>
+              <Text>Show Menus</Text>
+              {categoryLoading ? (
+                <Skeleton />
+              ) : (
+                !!category &&
+                currentCategory && (
+                  <Tag>
+                    <TagLabel>{currentCategory?.name}</TagLabel>
+                    <TagCloseButton onClick={() => setCategory("")} />
+                  </Tag>
+                )
+              )}
+              {!!sort.name && (
+                <Tag>
+                  <TagLabel>Name {sort.name}</TagLabel>
+                  <TagCloseButton
+                    onClick={() => setSort({ ...sort, name: "" })}
+                  />
+                </Tag>
+              )}
+              {!!sort.price && (
+                <Tag>
+                  <TagLabel>Price {sort.price}</TagLabel>
+                  <TagCloseButton
+                    onClick={() => setSort({ ...sort, price: "" })}
+                  />
+                </Tag>
+              )}
             </HStack>
-          </Box>
-          <Divider my="2" />
-          <Text>Payment Details</Text>
-          <Box>Pay With Cash</Box>
-          <Box>Qris</Box>
-          <Button variant="gradient">Place an order</Button>
+            <HStack>
+              <HStack>
+                <Text>Category</Text>
+                <Select
+                  value={category}
+                  placeholder="pick a category"
+                  onChange={(e) => setCategory(e.target.value)}
+                >
+                  {categoryData?.map((c) => (
+                    <option key={c.id} value={c.id}>
+                      {c.name}
+                    </option>
+                  ))}
+                </Select>
+              </HStack>
+              <Button
+                onClick={() =>
+                  setSort({
+                    ...sort,
+                    price: sort.price === "ASC" ? "DESC" : "ASC",
+                  })
+                }
+              >
+                {sort.price === "ASC" ? (
+                  <TbSortAscendingNumbers />
+                ) : (
+                  <TbSortDescendingNumbers />
+                )}
+              </Button>
+              <Button
+                onClick={() =>
+                  setSort({
+                    ...sort,
+                    name: sort.name === "ASC" ? "DESC" : "ASC",
+                  })
+                }
+              >
+                {sort.name === "ASC" ? (
+                  <AiOutlineSortAscending />
+                ) : (
+                  <AiOutlineSortDescending />
+                )}
+              </Button>
+            </HStack>
+          </Flex>
+          {isLoading ? (
+            <Grid></Grid>
+          ) : (
+            <Grid templateColumns="repeat(4, 1fr)" gap={6}>
+              {products?.map((prod) => (
+                <Product key={prod.name} products={prod} />
+              ))}
+            </Grid>
+          )}
+          {isLoading ? (
+            <Skeleton />
+          ) : (
+            <Center my="10">
+              <HStack spacing={0}>
+                <Button
+                  bg="red.400"
+                  w="40px"
+                  p="0"
+                  roundedLeft="md"
+                  roundedRight="none"
+                  isDisabled={currentPage === 1}
+                  onClick={() =>
+                    setSearchParams((params) => {
+                      params.set("page", String(currentPage - 1));
+                      return params;
+                    })
+                  }
+                >
+                  <ChevronLeft />
+                </Button>
+                <Button
+                  bg="red.400"
+                  w="40px"
+                  p="0"
+                  roundedLeft="none"
+                  roundedRight="md"
+                  isDisabled={
+                    products !== undefined ? products.length < 10 : false
+                  }
+                  onClick={() =>
+                    setSearchParams((params) => {
+                      params.set("page", String(currentPage + 1));
+                      return params;
+                    })
+                  }
+                >
+                  <ChevronRight />
+                </Button>
+              </HStack>
+            </Center>
+          )}
+        </Stack>
+      </Flex>
+      <Flex
+        align="start"
+        p="4"
+        boxShadow="md"
+        pos="fixed"
+        right={0}
+        top={0}
+        w="350px"
+        h="100vh"
+        bg="white"
+        overflowY="auto"
+      >
+        <Stack w="full">
+          <Cart />
         </Stack>
       </Flex>
     </Flex>

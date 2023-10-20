@@ -35,14 +35,14 @@ const NavItem = ({ route, active, icon, children, ...props }: NavItemProps) => {
           {icon && (
             <Icon
               mr="4"
-              fontSize="16"
+              fontSize={{ base: "20", md: "25", lg: "16" }}
               _groupHover={{
                 color: "white",
               }}
               as={icon}
             />
           )}
-          {children}
+          <Box display={{ base: "none", lg: "block" }}>{children}</Box>
         </Flex>
       </Box>
     </Link>

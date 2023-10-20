@@ -8,6 +8,8 @@ export class ProductsModel extends Model<Products> implements Products {
   public stock: number;
   public description: string;
   public imgUrl: string;
+  public status: "active" | "disabled" | "deleted";
+  public categoryId?: number;
 }
 
 export default function (sequelize: Sequelize): typeof ProductsModel {
@@ -35,6 +37,15 @@ export default function (sequelize: Sequelize): typeof ProductsModel {
         type: DataTypes.INTEGER,
       },
       stock: {
+        allowNull: false,
+        type: DataTypes.INTEGER,
+      },
+      status: {
+        type: DataTypes.ENUM,
+        values: ["active", "disabled", "deleted"],
+        defaultValue: "active",
+      },
+      categoryId: {
         allowNull: false,
         type: DataTypes.INTEGER,
       },

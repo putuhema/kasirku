@@ -10,7 +10,7 @@ export class UserModel extends Model<User> implements User {
   public imgUrl: string;
   public role: string;
   public password: string;
-  public status: string;
+  public status: "active" | "disabled" | "deleted";
 
   public readonly createdAt!: Date;
   public readonly updateAt!: Date;
@@ -50,8 +50,8 @@ export default function (sequelize: Sequelize): typeof UserModel {
         defaultValue: "cashier",
       },
       status: {
-        allowNull: false,
-        type: DataTypes.STRING(45),
+        type: DataTypes.ENUM,
+        values: ["active", "disabled", "deleted"],
         defaultValue: "active",
       },
       password: {

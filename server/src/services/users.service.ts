@@ -4,6 +4,8 @@ import { User } from "@/interfaces/users.interface";
 import { hash } from "bcrypt";
 import { Service } from "typedi";
 import bcrypt from "bcrypt";
+import { deleteImage } from "@/utils/file";
+import { Op } from "sequelize";
 
 @Service()
 export class UserService {
@@ -12,6 +14,9 @@ export class UserService {
       return await DB.Users.findAll({
         where: {
           role: role,
+          status: {
+            [Op.in]: ["active", "disabled"],
+          },
         },
       });
     } else {
@@ -53,12 +58,11 @@ export class UserService {
 
   public async updateUser(
     userId: number,
-    { name, username, email, role, imgUrl, phone, password, status }: User
+    { name, username, email, role, imgUrl, phone, status }: User
   ) {
     const findUser: User = await DB.Users.findByPk(userId);
     if (!findUser) throw new HttpException(409, "User does't exist");
 
-    const hashPassword = await hash(password, 10);
     await DB.Users.update(
       {
         name,
@@ -118,9 +122,17 @@ export class UserService {
     const findUser: User = await DB.Users.findByPk(id);
     if (!findUser) throw new HttpException(409, "User does't exist");
 
-    await DB.Users.destroy({
-      where: { id },
-    });
+    if (findUser.imgUrl !== "uploads/default.jpg") {
+      await deleteImage(findUser.imgUrl);
+    }
+    await DB.Users.update(
+      {
+        status: "deleted",
+      },
+      {
+        where: { id },
+      }
+    );
 
     return findUser;
   }
@@ -128,6 +140,7 @@ export class UserService {
     const findUser: User = await DB.Users.findByPk(id);
     if (!findUser) throw new HttpException(409, "User does't exist");
 
+    await deleteImage(findUser.imgUrl);
     await DB.Users.update(
       {
         imgUrl,

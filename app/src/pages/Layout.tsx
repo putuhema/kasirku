@@ -7,10 +7,9 @@ const Layout = () => {
   return (
     <Flex h="100vh">
       <SidebarContent onClose={onClose} />
-      <Box flex="1" ml="320px">
+      <Box flex="1" ml={{ base: "65px", lg: "200px" }}>
         <Outlet />
       </Box>
-      {/* <Flex border="1px" w="350px"></Flex> */}
     </Flex>
   );
 };

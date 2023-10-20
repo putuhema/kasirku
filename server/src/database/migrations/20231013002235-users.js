@@ -36,8 +36,8 @@ module.exports = {
         defaultValue: "cashier",
       },
       status: {
-        allowNull: false,
-        type: DataTypes.STRING(45),
+        type: DataTypes.ENUM,
+        values: ["active", "disabled", "deleted"],
         defaultValue: "active",
       },
       password: {

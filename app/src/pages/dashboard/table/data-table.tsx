@@ -6,8 +6,6 @@ import {
   Th,
   Td,
   TableContainer,
-  Input,
-  Flex,
   Button,
   HStack,
 } from "@chakra-ui/react";
@@ -17,20 +15,29 @@ import {
   SortingState,
   flexRender,
   getCoreRowModel,
+  getFacetedRowModel,
+  getFacetedUniqueValues,
   getFilteredRowModel,
   getPaginationRowModel,
   getSortedRowModel,
   useReactTable,
 } from "@tanstack/react-table";
 import { useState } from "react";
+import { DataTableToolbar } from "./data-table-toolbar";
 
 interface DataTableProps<TData, TValue> {
+  onOpen?: () => void;
   columns: ColumnDef<TData, TValue>[];
+  filter: string;
+  tableName: string;
   data: TData[];
 }
 
 export function DataTable<TData, TValue>({
+  onOpen,
+  filter,
   columns,
+  tableName,
   data,
 }: DataTableProps<TData, TValue>) {
   const [sorting, setSorting] = useState<SortingState>([]);
@@ -44,6 +51,8 @@ export function DataTable<TData, TValue>({
     onColumnFiltersChange: setColumnFilters,
     getFilteredRowModel: getFilteredRowModel(),
     getPaginationRowModel: getPaginationRowModel(),
+    getFacetedRowModel: getFacetedRowModel(),
+    getFacetedUniqueValues: getFacetedUniqueValues(),
     state: {
       sorting,
       columnFilters,
@@ -52,15 +61,12 @@ export function DataTable<TData, TValue>({
 
   return (
     <>
-      <Flex w="max" my="2">
-        <Input
-          value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
-          onChange={(event) =>
-            table.getColumn("name")?.setFilterValue(event.target.value)
-          }
-          placeholder="Filter Names..."
-        />
-      </Flex>
+      <DataTableToolbar
+        tableName={tableName}
+        filter={filter}
+        drawerOpen={onOpen}
+        table={table}
+      />
       <TableContainer>
         <Table variant="simple">
           <Thead>

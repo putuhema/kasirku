@@ -14,6 +14,21 @@
             "date": 1697472055187,
             "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/error/2023-10-17.log",
             "hash": "a106a0cfd0d4ba183bab07b4a2c1edfa7325af6a05245736f19b060466c4e0a7"
+        },
+        {
+            "date": 1697582958442,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/error/2023-10-18.log",
+            "hash": "ece078f2b65dda27e4b96666392c01eac255236f501879ecd41f2db37965710e"
+        },
+        {
+            "date": 1697645522103,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/error/2023-10-19.log",
+            "hash": "950b0cc0731274cdf9721e1776b34b4f5917506e3350201e5ce01af9d56e4326"
+        },
+        {
+            "date": 1697778942790,
+            "name": "/home/phmahendra/code/webdev/kasirku/server/src/logs/error/2023-10-20.log",
+            "hash": "fb264e247884cf18e0fb941ab5ca686628fc4aa328744b039aa4d10d21e279ef"
         }
     ],
     "hashType": "sha256"

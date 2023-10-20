@@ -5,4 +5,6 @@ export interface Products {
   stock: number;
   description: string;
   imgUrl: string;
+  status: "active" | "disabled" | "deleted";
+  categoryId?: number;
 }
